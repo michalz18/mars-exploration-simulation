@@ -34,6 +34,14 @@ public class Rover {
         explorationOutcome = ExplorationOutcome.UNDEFINED;
     }
 
+    public TileType getInventory() {
+        return inventory;
+    }
+
+    public void setInventory(TileType inventory) {
+        this.inventory = inventory;
+    }
+
     public long getId() {
         return id;
     }
