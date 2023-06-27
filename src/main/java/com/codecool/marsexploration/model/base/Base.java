@@ -3,11 +3,9 @@ package com.codecool.marsexploration.model.base;
 import com.codecool.marsexploration.calculators.model.Coordinate;
 import com.codecool.marsexploration.tiletype.TileType;
 
-import javax.swing.text.Position;
 import java.util.List;
 
 public class Base {
-
     private static long count = 0;
     private final Long id;
     private Coordinate position;
@@ -20,6 +18,10 @@ public class Base {
         this.id = count;
         this.status = status;
         count++;
+    }
+
+    public void addResources(TileType resource) {
+        this.resources.add(resource);
     }
 
     public Coordinate getPosition() {
