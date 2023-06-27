@@ -6,8 +6,17 @@ import com.codecool.marsexploration.model.rovers.Rover;
 
 import java.util.List;
 
-public interface Task {
+public abstract class Task {
+    private final List<Action> taskSteps;
 
-    boolean shouldTaskBePreformed(Rover rover);
-    List<Action> performTask(Rover rover, SimulationContext simulationContext);
+    public Task(List<Action> taskSteps) {
+        this.taskSteps = taskSteps;
+    }
+
+    public abstract boolean shouldTaskBePreformed(Rover rover);
+    public void performTask(Rover rover, SimulationContext simulationContext) {
+        for (Action step : taskSteps) {
+            step.takeAction(rover, simulationContext);
+        }
+    }
 }

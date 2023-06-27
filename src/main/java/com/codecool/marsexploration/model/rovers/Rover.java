@@ -34,6 +34,18 @@ public class Rover {
         explorationOutcome = ExplorationOutcome.UNDEFINED;
     }
 
+    public Coordinate getDestination() {
+        return destination;
+    }
+
+    public TileType getInventory() {
+        return inventory;
+    }
+
+    public void setInventory(TileType inventory) {
+        this.inventory = inventory;
+    }
+
     public long getId() {
         return id;
     }
@@ -90,4 +102,7 @@ public class Rover {
         return memory.getSize();
     }
 
+    public TileType getInventory() {
+        return inventory;
+    }
 }
