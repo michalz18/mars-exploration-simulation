@@ -20,6 +20,11 @@ public class Base {
         count++;
     }
 
+
+    public Status getStatus() {
+        return status;
+    }
+
     public void addResources(TileType resource) {
         this.resources.add(resource);
     }

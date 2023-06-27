@@ -98,4 +98,7 @@ public class Rover {
         return memory.getSize();
     }
 
+    public TileType getInventory() {
+        return inventory;
+    }
 }

@@ -8,13 +8,11 @@ import com.codecool.marsexploration.model.rovers.rovermovement.MovementStrategyT
 
 import java.util.List;
 
-public class ExplorationTask implements Task {
-
-    private final List<Action> taskSteps; // MOVE, SCAN, ANALISE, LOG
+public class ExplorationTask extends Task {
     private final Logger logger;
 
     public ExplorationTask(List<Action> taskSteps, Logger logger) {
-        this.taskSteps = taskSteps;
+        super(taskSteps); // MOVE, SCAN, ANALISE, LOG
         this.logger = logger;
     }
 
@@ -24,11 +22,4 @@ public class ExplorationTask implements Task {
         // ma zwracać true jeśli ExplorationOutcome rovera = Undefind
         return false;
     }
-
-    @Override
-    public List<Action> performTask(Rover rover, SimulationContext simulationContext) {
-        return taskSteps;
-    }
-
-
 }
