@@ -22,4 +22,7 @@ public class ExplorationTask extends Task {
         // ma zwracać true jeśli ExplorationOutcome rovera = Undefind
         return false;
     }
+
+
+
 }
