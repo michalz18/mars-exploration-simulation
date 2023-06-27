@@ -34,6 +34,10 @@ public class Rover {
         explorationOutcome = ExplorationOutcome.UNDEFINED;
     }
 
+    public Coordinate getDestination() {
+        return destination;
+    }
+
     public TileType getInventory() {
         return inventory;
     }
