@@ -6,12 +6,9 @@ import com.codecool.marsexploration.model.rovers.Rover;
 
 import java.util.List;
 
-public class ResourceGatheringTask implements Task {
-
-    private final List<Action> taskSteps; // SCAN, ANALISE_RESOURCE_GATHERING, MOVE, DO, LOG
-
+public class ResourceGatheringTask extends Task {
     public ResourceGatheringTask(List<Action> taskSteps) {
-        this.taskSteps = taskSteps;
+        super(taskSteps); // SCAN, ANALISE_RESOURCE_GATHERING, MOVE, DO, LOG
     }
 
     @Override
@@ -19,10 +16,5 @@ public class ResourceGatheringTask implements Task {
         // TODO
         // true -> rover.base.status = operating
         return false;
-    }
-
-    @Override
-    public List<Action> performTask(Rover rover, SimulationContext simulationContext) {
-        return null;
     }
 }

@@ -22,6 +22,10 @@ public class Base {
         count++;
     }
 
+    public Status getStatus() {
+        return status;
+    }
+
     public Coordinate getPosition() {
         return position;
     }

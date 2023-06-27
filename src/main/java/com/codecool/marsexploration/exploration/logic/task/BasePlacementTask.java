@@ -6,16 +6,11 @@ import com.codecool.marsexploration.model.rovers.Rover;
 
 import java.util.List;
 
-public class BasePlacementTask implements Task {
-
-
-
-    private final List<Action> taskSteps; // PLAN BAZY
+public class BasePlacementTask extends Task {
 
     public BasePlacementTask(List<Action> taskSteps) {
-        this.taskSteps = taskSteps;
+        super(taskSteps); // PLAN BAZY
     }
-
 
     @Override
     public boolean shouldTaskBePreformed(Rover rover) {
@@ -24,8 +19,4 @@ public class BasePlacementTask implements Task {
         return false;
     }
 
-    @Override
-    public List<Action> performTask(Rover rover, SimulationContext simulationContext) {
-        return taskSteps;
-    }
 }
