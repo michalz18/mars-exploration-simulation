@@ -4,6 +4,7 @@ import com.codecool.marsexploration.calculators.model.Coordinate;
 import com.codecool.marsexploration.calculators.service.CoordinateCalculator;
 import com.codecool.marsexploration.calculators.service.CoordinateCalculatorImpl;
 import com.codecool.marsexploration.model.map.MarsMap;
+import com.codecool.marsexploration.model.rovers.Rover;
 import com.codecool.marsexploration.tiletype.TileType;
 
 import java.util.List;
@@ -20,6 +21,7 @@ public class Base {
     public Base(Status status, Coordinate position) {
         this.id = count;
         this.status = status;
+        this.position = position;
         count++;
     }
 
@@ -46,5 +48,9 @@ public class Base {
 
     public void setStatus(Status status) {
         this.status = status;
+    }
+
+    public Rover buildRover() {
+        return new Rover(3, this, position);
     }
 }

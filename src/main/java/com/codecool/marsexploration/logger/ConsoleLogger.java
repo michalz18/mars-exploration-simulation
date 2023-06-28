@@ -1,6 +1,7 @@
 package com.codecool.marsexploration.logger;
 
 import com.codecool.marsexploration.calculators.model.Coordinate;
+import com.codecool.marsexploration.model.base.Status;
 import com.codecool.marsexploration.outcome.ExplorationOutcome;
 import com.codecool.marsexploration.model.rovers.rovermovement.MovementStrategyType;
 import com.codecool.marsexploration.tiletype.TileType;
@@ -18,16 +19,18 @@ public class ConsoleLogger implements Logger {
     public void logg(int roverId,
                      Coordinate coordinate,
                      int amountOfStep,
+                     String currentTask,
+                     Status baseStatus,
+                     TileType inventory,
                      Map<Coordinate, TileType> resourcesFindSoFar,
                      MovementStrategyType movementStrategy,
-                     ExplorationOutcome explorationOutcome
-    ) {
+                     ExplorationOutcome explorationOutcome) {
         String logEntry = messageGenerator.generateLogEntry(
-                roverId,
-                coordinate,
-                amountOfStep,
+                roverId, coordinate, amountOfStep,
+                currentTask, baseStatus, inventory,
                 resourcesFindSoFar,
-                movementStrategy);
+                movementStrategy,
+                explorationOutcome);
         System.out.println(logEntry);
     }
 

@@ -15,12 +15,7 @@ public class ConfigurationValidator {
                 areResourcesToLookForValid(configuration.getResourcesToLookFor()) &&
                 isFilePathValid(configuration.getFilePath()) &&
                 isAllowedAttemptsToLandValid(configuration.getAllowedAttemptsToLand()) &&
-                areRoverStepsValid(configuration.getRoverSteps()) &&
                 areMovementStrategiesValid(configuration.getMovementStrategies());
-    }
-
-    private boolean areRoverStepsValid(List<Action> roverSteps) {
-        return roverSteps != null && !roverSteps.isEmpty();
     }
 
     private boolean isAllowedAttemptsToLandValid(int allowedAttemptsToLand) {

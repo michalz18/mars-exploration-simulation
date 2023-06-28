@@ -34,7 +34,7 @@ class ExplorationTaskTest {
                 new Scan(new CoordinateCalculatorImpl()),
                 new AnaliseExploration(new OutcomeAnalyser(List.of(new ResourceAnalyser(), new MapAnalyser(0.75), new StepAnalyser()))),
                 new Log(new ConsoleLogger(new MessageGeneratorImpl()))
-        ), new ConsoleLogger(new MessageGeneratorImpl()));
+        ), "EXPLORATION");
         rover = mock(Rover.class);
     }
 

@@ -1,6 +1,7 @@
 package com.codecool.marsexploration.logger;
 
 import com.codecool.marsexploration.calculators.model.Coordinate;
+import com.codecool.marsexploration.model.base.Status;
 import com.codecool.marsexploration.model.rovers.rovermovement.MovementStrategyType;
 import com.codecool.marsexploration.outcome.ExplorationOutcome;
 import com.codecool.marsexploration.tiletype.TileType;
@@ -11,8 +12,12 @@ public interface MessageGenerator {
     String generateLogEntry(int roverId,
                             Coordinate coordinate,
                             int amountOfStep,
+                            String currentTask,
+                            Status baseStatus,
+                            TileType inventory,
                             Map<Coordinate, TileType> resourcesFindSoFar,
-                            MovementStrategyType movementStrategy);
+                            MovementStrategyType movementStrategy,
+                            ExplorationOutcome explorationOutcome);
 
     String generateExplorationConfigurationErrorEntry();
 

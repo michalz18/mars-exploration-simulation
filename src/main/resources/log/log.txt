@@ -1,265 +1,51 @@
-[0] 2023-06-15: Rover at (14, 1), Steps: 1, Resources Found: BASE amount: 1, EMPTY amount: 19, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (15, 1), Steps: 2, Resources Found: BASE amount: 1, EMPTY amount: 23, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (15, 2), Steps: 3, Resources Found: BASE amount: 1, EMPTY amount: 23, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (14, 2), Steps: 4, Resources Found: BASE amount: 1, EMPTY amount: 27, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (14, 1), Steps: 5, Resources Found: BASE amount: 1, EMPTY amount: 28, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (14, 0), Steps: 6, Resources Found: BASE amount: 1, EMPTY amount: 28, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (14, 1), Steps: 7, Resources Found: BASE amount: 1, EMPTY amount: 28, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (13, 1), Steps: 8, Resources Found: BASE amount: 1, EMPTY amount: 28, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (13, 0), Steps: 9, Resources Found: BASE amount: 1, EMPTY amount: 32, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (14, 0), Steps: 10, Resources Found: BASE amount: 1, EMPTY amount: 32, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (14, 1), Steps: 11, Resources Found: BASE amount: 1, EMPTY amount: 32, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (14, 2), Steps: 12, Resources Found: BASE amount: 1, EMPTY amount: 32, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (14, 3), Steps: 13, Resources Found: BASE amount: 1, EMPTY amount: 32, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (15, 3), Steps: 14, Resources Found: BASE amount: 1, EMPTY amount: 37, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (15, 4), Steps: 15, Resources Found: BASE amount: 1, MOUNTAIN amount: 1, EMPTY amount: 37, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (16, 4), Steps: 16, Resources Found: BASE amount: 1, MOUNTAIN amount: 2, EMPTY amount: 41, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (16, 3), Steps: 17, Resources Found: BASE amount: 1, MOUNTAIN amount: 2, EMPTY amount: 46, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (17, 3), Steps: 18, Resources Found: BASE amount: 1, MOUNTAIN amount: 2, EMPTY amount: 47, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (18, 3), Steps: 19, Resources Found: BASE amount: 1, MOUNTAIN amount: 3, EMPTY amount: 51, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (18, 4), Steps: 20, Resources Found: BASE amount: 1, MOUNTAIN amount: 3, EMPTY amount: 56, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (18, 3), Steps: 21, Resources Found: BASE amount: 1, MOUNTAIN amount: 3, EMPTY amount: 58, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (18, 2), Steps: 22, Resources Found: BASE amount: 1, MOUNTAIN amount: 3, EMPTY amount: 58, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (18, 1), Steps: 23, Resources Found: BASE amount: 1, MOUNTAIN amount: 3, EMPTY amount: 61, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (18, 2), Steps: 24, Resources Found: BASE amount: 1, MOUNTAIN amount: 3, EMPTY amount: 61, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (17, 2), Steps: 25, Resources Found: BASE amount: 1, MOUNTAIN amount: 3, EMPTY amount: 61, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (17, 3), Steps: 26, Resources Found: BASE amount: 1, MOUNTAIN amount: 3, EMPTY amount: 61, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (17, 4), Steps: 27, Resources Found: BASE amount: 1, MOUNTAIN amount: 3, EMPTY amount: 61, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (16, 4), Steps: 28, Resources Found: BASE amount: 1, MOUNTAIN amount: 3, EMPTY amount: 61, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (16, 5), Steps: 29, Resources Found: BASE amount: 1, MOUNTAIN amount: 3, EMPTY amount: 61, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (17, 5), Steps: 30, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 65, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (17, 4), Steps: 31, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 66, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (16, 4), Steps: 32, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 66, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (16, 5), Steps: 33, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 66, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (16, 4), Steps: 34, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 66, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (17, 4), Steps: 35, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 66, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (18, 4), Steps: 36, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 66, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (19, 4), Steps: 37, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 66, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (19, 3), Steps: 38, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 71, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (18, 3), Steps: 39, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 72, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (19, 3), Steps: 40, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 72, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (20, 3), Steps: 41, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 72, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (20, 2), Steps: 42, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 77, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (21, 2), Steps: 43, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 79, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (21, 1), Steps: 44, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 84, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (21, 2), Steps: 45, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 84, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (21, 3), Steps: 46, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 84, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (21, 4), Steps: 47, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 85, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (21, 3), Steps: 48, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 87, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (21, 2), Steps: 49, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 87, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (21, 1), Steps: 50, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 87, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (21, 2), Steps: 51, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 87, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (22, 2), Steps: 52, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 87, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (23, 2), Steps: 53, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 92, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (23, 3), Steps: 54, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 97, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (24, 3), Steps: 55, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 99, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (23, 3), Steps: 56, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 104, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (23, 2), Steps: 57, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 104, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (24, 2), Steps: 58, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 104, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (23, 2), Steps: 59, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 105, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (24, 2), Steps: 60, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 105, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (25, 2), Steps: 61, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 105, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (25, 1), Steps: 62, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 110, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (25, 0), Steps: 63, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 110, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (26, 0), Steps: 64, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 110, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (27, 0), Steps: 65, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 113, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (28, 0), Steps: 66, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 116, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (29, 0), Steps: 67, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 119, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (28, 0), Steps: 68, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 122, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (27, 0), Steps: 69, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 122, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (27, 1), Steps: 70, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 122, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (27, 2), Steps: 71, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 124, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (27, 3), Steps: 72, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 126, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (28, 3), Steps: 73, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 129, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (27, 3), Steps: 74, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 132, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (27, 4), Steps: 75, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 132, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (28, 4), Steps: 76, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 137, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (28, 3), Steps: 77, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 138, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (28, 2), Steps: 78, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 138, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (28, 1), Steps: 79, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 138, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (28, 2), Steps: 80, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 138, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (28, 3), Steps: 81, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 138, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (27, 3), Steps: 82, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 138, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (27, 4), Steps: 83, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 138, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (28, 4), Steps: 84, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 138, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (29, 4), Steps: 85, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 138, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (28, 4), Steps: 86, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 142, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (27, 4), Steps: 87, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 142, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (27, 5), Steps: 88, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 142, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (28, 5), Steps: 89, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 147, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (29, 5), Steps: 90, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 148, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (30, 5), Steps: 91, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 149, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (31, 5), Steps: 92, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 154, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (32, 5), Steps: 93, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 159, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (32, 4), Steps: 94, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 164, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (31, 4), Steps: 95, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 167, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (30, 4), Steps: 96, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 167, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (29, 4), Steps: 97, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 167, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (29, 3), Steps: 98, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 167, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (30, 3), Steps: 99, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 167, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (31, 3), Steps: 100, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 168, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (31, 4), Steps: 101, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 169, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (31, 3), Steps: 102, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 169, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (31, 4), Steps: 103, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 169, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (32, 4), Steps: 104, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 169, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (32, 5), Steps: 105, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 169, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (32, 4), Steps: 106, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 169, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (31, 4), Steps: 107, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 169, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (30, 4), Steps: 108, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 169, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (29, 4), Steps: 109, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 169, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (29, 5), Steps: 110, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 169, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (28, 5), Steps: 111, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 169, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (29, 5), Steps: 112, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 169, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (29, 4), Steps: 113, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 169, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (29, 5), Steps: 114, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 169, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (29, 4), Steps: 115, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 169, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (28, 4), Steps: 116, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 169, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (27, 4), Steps: 117, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 169, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (27, 5), Steps: 118, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 169, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (26, 5), Steps: 119, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 169, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (27, 5), Steps: 120, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (27, 4), Steps: 121, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (27, 3), Steps: 122, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (27, 2), Steps: 123, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (27, 1), Steps: 124, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (27, 0), Steps: 125, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (26, 0), Steps: 126, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (27, 0), Steps: 127, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (26, 0), Steps: 128, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (27, 0), Steps: 129, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (27, 1), Steps: 130, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (26, 1), Steps: 131, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (27, 1), Steps: 132, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (27, 0), Steps: 133, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (28, 0), Steps: 134, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (27, 0), Steps: 135, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (27, 1), Steps: 136, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (26, 1), Steps: 137, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (26, 0), Steps: 138, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (26, 1), Steps: 139, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (26, 2), Steps: 140, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (26, 3), Steps: 141, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (27, 3), Steps: 142, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (26, 3), Steps: 143, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (27, 3), Steps: 144, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (27, 4), Steps: 145, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (27, 3), Steps: 146, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (27, 4), Steps: 147, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (27, 3), Steps: 148, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (26, 3), Steps: 149, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (26, 2), Steps: 150, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (25, 2), Steps: 151, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (26, 2), Steps: 152, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (26, 1), Steps: 153, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (25, 1), Steps: 154, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (24, 1), Steps: 155, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (24, 2), Steps: 156, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (24, 1), Steps: 157, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (24, 0), Steps: 158, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (25, 0), Steps: 159, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (25, 1), Steps: 160, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (25, 0), Steps: 161, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (24, 0), Steps: 162, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (24, 1), Steps: 163, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (24, 2), Steps: 164, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (24, 1), Steps: 165, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (23, 1), Steps: 166, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (24, 1), Steps: 167, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (23, 1), Steps: 168, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (23, 2), Steps: 169, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (23, 1), Steps: 170, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (24, 1), Steps: 171, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (24, 0), Steps: 172, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (25, 0), Steps: 173, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (24, 0), Steps: 174, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (24, 1), Steps: 175, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (24, 0), Steps: 176, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (25, 0), Steps: 177, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (26, 0), Steps: 178, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (25, 0), Steps: 179, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (26, 0), Steps: 180, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (25, 0), Steps: 181, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (25, 1), Steps: 182, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (24, 1), Steps: 183, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (24, 2), Steps: 184, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (25, 2), Steps: 185, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (24, 2), Steps: 186, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (25, 2), Steps: 187, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (25, 1), Steps: 188, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (25, 2), Steps: 189, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (26, 2), Steps: 190, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (26, 1), Steps: 191, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (26, 2), Steps: 192, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (26, 3), Steps: 193, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (27, 3), Steps: 194, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (26, 3), Steps: 195, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (25, 3), Steps: 196, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (24, 3), Steps: 197, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (24, 2), Steps: 198, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (24, 3), Steps: 199, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (24, 4), Steps: 200, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (24, 3), Steps: 201, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (25, 3), Steps: 202, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (24, 3), Steps: 203, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (25, 3), Steps: 204, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (24, 3), Steps: 205, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (24, 2), Steps: 206, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (24, 3), Steps: 207, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (25, 3), Steps: 208, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (25, 4), Steps: 209, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (24, 4), Steps: 210, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (23, 4), Steps: 211, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (23, 5), Steps: 212, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 171, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (23, 6), Steps: 213, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 174, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (22, 6), Steps: 214, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 179, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (21, 6), Steps: 215, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 181, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (22, 6), Steps: 216, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 182, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (21, 6), Steps: 217, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 182, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (20, 6), Steps: 218, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 182, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (21, 6), Steps: 219, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 183, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (20, 6), Steps: 220, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 183, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (21, 6), Steps: 221, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 183, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (22, 6), Steps: 222, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 183, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (23, 6), Steps: 223, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 183, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (22, 6), Steps: 224, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 183, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (22, 5), Steps: 225, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 183, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (22, 6), Steps: 226, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 183, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (23, 6), Steps: 227, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 183, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (23, 7), Steps: 228, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 183, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (23, 6), Steps: 229, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 188, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (22, 6), Steps: 230, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 188, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (22, 7), Steps: 231, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 188, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (22, 8), Steps: 232, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 189, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (21, 8), Steps: 233, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 194, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (21, 7), Steps: 234, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 196, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (20, 7), Steps: 235, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 196, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (20, 8), Steps: 236, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 197, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (21, 8), Steps: 237, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 198, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (22, 8), Steps: 238, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 198, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (21, 8), Steps: 239, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 198, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (21, 7), Steps: 240, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 198, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (21, 8), Steps: 241, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 198, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (21, 9), Steps: 242, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 198, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (20, 9), Steps: 243, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 203, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (19, 9), Steps: 244, Resources Found: BASE amount: 1, MOUNTAIN amount: 4, EMPTY amount: 204, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (19, 10), Steps: 245, Resources Found: BASE amount: 1, MOUNTAIN amount: 6, EMPTY amount: 206, MINERAL amount: 1, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (20, 10), Steps: 246, Resources Found: BASE amount: 1, MOUNTAIN amount: 8, EMPTY amount: 208, MINERAL amount: 2, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (20, 9), Steps: 247, Resources Found: BASE amount: 1, MOUNTAIN amount: 8, EMPTY amount: 209, MINERAL amount: 2, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (20, 8), Steps: 248, Resources Found: BASE amount: 1, MOUNTAIN amount: 8, EMPTY amount: 209, MINERAL amount: 2, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (20, 7), Steps: 249, Resources Found: BASE amount: 1, MOUNTAIN amount: 8, EMPTY amount: 209, MINERAL amount: 2, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (21, 7), Steps: 250, Resources Found: BASE amount: 1, MOUNTAIN amount: 8, EMPTY amount: 209, MINERAL amount: 2, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (21, 6), Steps: 251, Resources Found: BASE amount: 1, MOUNTAIN amount: 8, EMPTY amount: 209, MINERAL amount: 2, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (21, 7), Steps: 252, Resources Found: BASE amount: 1, MOUNTAIN amount: 8, EMPTY amount: 209, MINERAL amount: 2, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (21, 8), Steps: 253, Resources Found: BASE amount: 1, MOUNTAIN amount: 8, EMPTY amount: 209, MINERAL amount: 2, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (22, 8), Steps: 254, Resources Found: BASE amount: 1, MOUNTAIN amount: 8, EMPTY amount: 209, MINERAL amount: 2, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (21, 8), Steps: 255, Resources Found: BASE amount: 1, MOUNTAIN amount: 8, EMPTY amount: 209, MINERAL amount: 2, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (22, 8), Steps: 256, Resources Found: BASE amount: 1, MOUNTAIN amount: 8, EMPTY amount: 209, MINERAL amount: 2, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (23, 8), Steps: 257, Resources Found: BASE amount: 1, MOUNTAIN amount: 8, EMPTY amount: 209, MINERAL amount: 2, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (23, 7), Steps: 258, Resources Found: BASE amount: 1, MOUNTAIN amount: 8, EMPTY amount: 210, MINERAL amount: 2, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (23, 8), Steps: 259, Resources Found: BASE amount: 1, MOUNTAIN amount: 8, EMPTY amount: 210, MINERAL amount: 2, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (23, 7), Steps: 260, Resources Found: BASE amount: 1, MOUNTAIN amount: 8, EMPTY amount: 210, MINERAL amount: 2, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (23, 8), Steps: 261, Resources Found: BASE amount: 1, MOUNTAIN amount: 8, EMPTY amount: 210, MINERAL amount: 2, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (23, 9), Steps: 262, Resources Found: BASE amount: 1, MOUNTAIN amount: 8, EMPTY amount: 210, MINERAL amount: 2, Movement Strategy: EXPLORING
-[0] 2023-06-15: Rover at (22, 9), Steps: 263, Resources Found: BASE amount: 1, MOUNTAIN amount: 8, EMPTY amount: 210, MINERAL amount: 2, PIT amount: 1, WATER amount: 1, Movement Strategy: RETURNING
-[0] 2023-06-15: Rover at (15, 1), Steps: 264, Resources Found: BASE amount: 1, MOUNTAIN amount: 8, EMPTY amount: 210, MINERAL amount: 2, PIT amount: 1, WATER amount: 1, Movement Strategy: RETURNING
-Mission outcome: RESOURCES_FOUND
+Mission outcome: UNDEFINED
+Mission outcome: UNDEFINED
+Mission outcome: UNDEFINED
+Mission outcome: UNDEFINED
+Mission outcome: UNDEFINED
+Mission outcome: UNDEFINED
+Mission outcome: UNDEFINED
+Mission outcome: UNDEFINED
+Mission outcome: UNDEFINED
+Mission outcome: UNDEFINED
+Mission outcome: UNDEFINED
+Mission outcome: UNDEFINED
+Mission outcome: UNDEFINED
+Mission outcome: UNDEFINED
+Mission outcome: UNDEFINED
+Mission outcome: UNDEFINED
+Mission outcome: UNDEFINED
+Mission outcome: UNDEFINED
+Mission outcome: UNDEFINED
+Mission outcome: UNDEFINED
+Mission outcome: UNDEFINED
+Mission outcome: UNDEFINED
+Mission outcome: UNDEFINED
+Mission outcome: UNDEFINED
+Mission outcome: UNDEFINED
+Mission outcome: UNDEFINED
+Mission outcome: UNDEFINED
+Mission outcome: UNDEFINED
+Mission outcome: UNDEFINED
+Mission outcome: UNDEFINED
+Mission outcome: UNDEFINED
+Mission outcome: UNDEFINED
+Mission outcome: UNDEFINED
+Mission outcome: UNDEFINED
+Mission outcome: UNDEFINED
+Mission outcome: UNDEFINED
+Mission outcome: UNDEFINED
+Mission outcome: UNDEFINED
+Mission outcome: UNDEFINED
+Mission outcome: UNDEFINED
+Mission outcome: UNDEFINED
+Mission outcome: UNDEFINED
+Mission outcome: UNDEFINED
+Mission outcome: UNDEFINED
+Mission outcome: UNDEFINED
+Mission outcome: UNDEFINED
+Mission outcome: UNDEFINED
+Mission outcome: UNDEFINED
+Mission outcome: UNDEFINED
+Mission outcome: UNDEFINED
+[0] 2023-06-28: Rover at (33, 15), Steps: 50, Current task: EXPLORATION, Base status: SPACESHIP, Resources Found: PIT amount: 1, WATER amount: 1, EMPTY amount: 103, MINERAL amount: 4, SPACESHIP amount: 1, MOUNTAIN amount: 3, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND

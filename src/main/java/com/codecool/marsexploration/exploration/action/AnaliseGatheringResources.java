@@ -9,10 +9,13 @@ import com.codecool.marsexploration.tiletype.TileType;
 
 public class AnaliseGatheringResources implements Action {
 
+    private final Action passResourceToBase;
+
     private final TileType resourceToGatherInBase;
     ClosestResourceCalculator closestResourceCalculator;
 
-    public AnaliseGatheringResources(TileType resourceToGatherInBase, ClosestResourceCalculator closestResourceCalculator) {
+    public AnaliseGatheringResources(Action passResourceToBase, TileType resourceToGatherInBase, ClosestResourceCalculator closestResourceCalculator) {
+        this.passResourceToBase = passResourceToBase;
         this.resourceToGatherInBase = resourceToGatherInBase;
         this.closestResourceCalculator = closestResourceCalculator;
     }
@@ -49,7 +52,7 @@ public class AnaliseGatheringResources implements Action {
     }
 
     private void handleResourcePass(Rover rover) {
-        rover.setCurrentActivityAssigned(new PassResourceToBase());
+        rover.setCurrentActivityAssigned(passResourceToBase);
     }
 
     private void handleMovingToBase(Rover rover) {

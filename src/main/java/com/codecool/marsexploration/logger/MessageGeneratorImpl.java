@@ -1,6 +1,7 @@
 package com.codecool.marsexploration.logger;
 
 import com.codecool.marsexploration.calculators.model.Coordinate;
+import com.codecool.marsexploration.model.base.Status;
 import com.codecool.marsexploration.model.rovers.rovermovement.MovementStrategyType;
 import com.codecool.marsexploration.outcome.ExplorationOutcome;
 import com.codecool.marsexploration.tiletype.TileType;
@@ -15,17 +16,21 @@ public class MessageGeneratorImpl implements MessageGenerator {
     public String generateLogEntry(int roverId,
                                    Coordinate coordinate,
                                    int amountOfStep,
+                                   String currentTask,
+                                   Status baseStatus,
+                                   TileType inventory,
                                    Map<Coordinate, TileType> resourcesFindSoFar,
-                                   MovementStrategyType movementStrategy) {
+                                   MovementStrategyType movementStrategy,
+                                   ExplorationOutcome explorationOutcome) {
         String resourcesString = resourcesFindSoFar.entrySet().stream()
                 .collect(Collectors.groupingBy(Map.Entry::getValue, Collectors.counting()))
                 .entrySet().stream()
                 .map(entry -> entry.getKey() + " amount: " + entry.getValue())
                 .collect(Collectors.joining(", "));
 
-        return String.format("[%d] %s: Rover at (%d, %d), Steps: %d, Resources Found: %s, Movement Strategy: %s",
-                roverId, LocalDate.now(), coordinate.x(), coordinate.y(), amountOfStep, resourcesString,
-                movementStrategy);
+        return String.format("[%d] %s: Rover at (%d, %d), Steps: %d, Current task: %s, Base status: %s, Resources Found: %s, Movement Strategy: %s, Outcome: %s",
+                roverId, LocalDate.now(), coordinate.x(), coordinate.y(), amountOfStep, currentTask, baseStatus, resourcesString,
+                movementStrategy, explorationOutcome);
     }
 
     @Override

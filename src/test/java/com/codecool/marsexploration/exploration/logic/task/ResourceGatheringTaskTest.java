@@ -20,6 +20,7 @@ import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
 class ResourceGatheringTaskTest {
+
     ResourceGatheringTask resourceGatheringTask;
     Rover rover;
     Base base;
@@ -32,9 +33,9 @@ class ResourceGatheringTaskTest {
                         new Move(), new AnaliseExploration(mock(OutcomeAnalyser.class)),
                         new Log(mock(FileLogger.class)),
                         new Do(),
-                        new AnaliseGatheringResources(TileType.MINERAL, mock(ClosestResourceCalculator.class))
+                        new AnaliseGatheringResources(new PassResourceToBase(), TileType.MINERAL, mock(ClosestResourceCalculator.class))
                 )
-        );
+        , "");
         rover = mock(Rover.class);
         base = mock(Base.class);
 
