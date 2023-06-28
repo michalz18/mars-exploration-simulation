@@ -2,6 +2,7 @@ package com.codecool.marsexploration.exploration.logic.task;
 
 import com.codecool.marsexploration.exploration.action.Action;
 import com.codecool.marsexploration.exploration.model.SimulationContext;
+import com.codecool.marsexploration.model.base.Status;
 import com.codecool.marsexploration.model.rovers.Rover;
 
 import java.util.List;
@@ -14,9 +15,7 @@ public class BasePlacementTask extends Task {
 
     @Override
     public boolean shouldTaskBePreformed(Rover rover) {
-        // todo
-        // TRUE -> jeśli rover.base.status = SPACESHIP || OPERATING
-        return false;
+        return rover.getBase().getStatus().equals(Status.SPACESHIP) || rover.getBase().getStatus().equals(Status.OPERATING);
     }
 
 }
