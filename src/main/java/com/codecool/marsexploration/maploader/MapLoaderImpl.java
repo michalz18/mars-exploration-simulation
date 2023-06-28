@@ -41,7 +41,7 @@ public class MapLoaderImpl implements MapLoader {
         return Files.readAllLines(Path.of(filePath));
     }
 
-    private void validateFileExists(String filePath) { //TODO przerzucić do validateConfig
+private void validateFileExists(String filePath) { //TODO przerzucić do validateConfig
         File file = new File(filePath);
         if (!file.exists()) {
             throw new IllegalArgumentException("File not found" + filePath);

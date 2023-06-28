@@ -1,10 +1,8 @@
 package com.codecool.marsexploration.exploration.logic.task;
 
 import com.codecool.marsexploration.exploration.action.Action;
-import com.codecool.marsexploration.exploration.model.SimulationContext;
 import com.codecool.marsexploration.logger.Logger;
 import com.codecool.marsexploration.model.rovers.Rover;
-import com.codecool.marsexploration.model.rovers.rovermovement.MovementStrategyType;
 import com.codecool.marsexploration.outcome.ExplorationOutcome;
 
 import java.util.List;
@@ -18,10 +16,9 @@ public class ExplorationTask extends Task {
     }
 
     @Override
-    public boolean shouldTaskBePreformed(Rover rover) {
-        return rover.getExplorationOutcome().equals(ExplorationOutcome.UNDEFINED);
+    public boolean shouldTaskBePerformed(Rover rover) {
+        return rover.getExplorationOutcome() == ExplorationOutcome.UNDEFINED;
     }
-
 
 
 }

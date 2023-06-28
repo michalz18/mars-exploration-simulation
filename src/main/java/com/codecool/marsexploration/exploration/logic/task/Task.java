@@ -13,7 +13,7 @@ public abstract class Task {
         this.taskSteps = taskSteps;
     }
 
-    public abstract boolean shouldTaskBePreformed(Rover rover);
+    public abstract boolean shouldTaskBePerformed(Rover rover);
     public void performTask(Rover rover, SimulationContext simulationContext) {
         for (Action step : taskSteps) {
             step.takeAction(rover, simulationContext);
