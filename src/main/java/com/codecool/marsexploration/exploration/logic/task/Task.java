@@ -9,8 +9,11 @@ import java.util.List;
 public abstract class Task {
     private final List<Action> taskSteps;
 
-    public Task(List<Action> taskSteps) {
+    private final String taskName;
+
+    public Task(List<Action> taskSteps, String taskName) {
         this.taskSteps = taskSteps;
+        this.taskName = taskName;
     }
 
     public abstract boolean shouldTaskBePerformed(Rover rover);
@@ -18,5 +21,9 @@ public abstract class Task {
         for (Action step : taskSteps) {
             step.takeAction(rover, simulationContext);
         }
+    }
+
+    public String getTaskName() {
+        return taskName;
     }
 }

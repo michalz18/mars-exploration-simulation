@@ -2,6 +2,7 @@ package com.codecool.marsexploration.exploration.action;
 
 import com.codecool.marsexploration.exploration.model.SimulationContext;
 import com.codecool.marsexploration.model.rovers.Rover;
+import com.codecool.marsexploration.model.rovers.rovermovement.MovementStrategyType;
 import com.codecool.marsexploration.outcome.ExplorationOutcome;
 import com.codecool.marsexploration.outcome.OutcomeAnalyser;
 
@@ -17,6 +18,7 @@ public class AnaliseExploration implements Action{
 
     @Override
     public void takeAction(Rover rover, SimulationContext simulationContext) {
+        rover.setCurrentMovementStrategyType(MovementStrategyType.EXPLORING);
         Optional<ExplorationOutcome> outcome = outcomeAnalyser.findOutcomeIfPresent(rover, simulationContext);
         outcome.ifPresent(rover::setExplorationOutcome);
     }

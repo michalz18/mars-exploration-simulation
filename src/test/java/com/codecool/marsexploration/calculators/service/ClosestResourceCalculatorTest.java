@@ -24,7 +24,7 @@ class ClosestResourceCalculatorTest {
     @BeforeEach
     void setUp() {
         closestResourceCalculator = new ClosestResourceCalculator();
-        rover = new Rover(5, new Base(Status.SPACESHIP, new Coordinate(1, 1)), MovementStrategyType.MOVING_TO_A_DESTINATION_COORDINATE);
+        rover = new Rover(5, new Base(Status.SPACESHIP, new Coordinate(1, 1)), null);
         memoryMap = new HashMap<>();
     }
 

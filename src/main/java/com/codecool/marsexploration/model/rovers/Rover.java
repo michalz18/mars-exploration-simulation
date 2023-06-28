@@ -23,6 +23,8 @@ public class Rover {
     private ExplorationOutcome explorationOutcome;
     private TileType inventory;
 
+    private String currentTask;
+
     public void setDestination(Coordinate destination) {
         this.destination = destination;
     }
@@ -30,11 +32,11 @@ public class Rover {
     private Coordinate destination;
     private Action currentActivityAssigned;
 
-    public Rover(int sight, Base base, MovementStrategyType movementStrategyType) {
+    public Rover(int sight, Base base, Coordinate currentPosition) {
         this.id = count;
         this.sight = sight;
         this.base = base;
-        this.currentMovementStrategyType = movementStrategyType;
+        this.currentPosition = currentPosition;
         memory = new MarsMap(new HashMap<>());
         explorationOutcome = ExplorationOutcome.UNDEFINED;
     }
@@ -112,5 +114,13 @@ public class Rover {
 
     public Action getCurrentActivityAssigned() {
         return currentActivityAssigned;
+    }
+
+    public String getCurrentTask() {
+        return currentTask;
+    }
+
+    public void setCurrentTask(String currentTask) {
+        this.currentTask = currentTask;
     }
 }

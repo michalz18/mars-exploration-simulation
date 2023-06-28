@@ -94,4 +94,8 @@ public class SimulationContext {
     public void changeRoverStrategyToReturning(Rover rover) {
         rover.setCurrentMovementStrategyType(MovementStrategyType.RETURNING);
     }
+
+    public void addRover(Rover rover) {
+        rovers.add(rover);
+    }
 }

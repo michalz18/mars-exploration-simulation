@@ -19,16 +19,14 @@ public class SimulationConfiguration {
 
     private final int allowedAttemptsToLand;
 
-    private final List<Action> roverSteps;
 
     public SimulationConfiguration(int timeoutSteps, String filePath, Set<TileType> resourcesToLookFor,
-                                   Map<MovementStrategyType, MovementStrategy> movementStrategies, int allowedAttemptsToLand, List<Action> roverSteps) {
+                                   Map<MovementStrategyType, MovementStrategy> movementStrategies, int allowedAttemptsToLand) {
         this.timeoutSteps = timeoutSteps;
         this.filePath = filePath;
         this.resourcesToLookFor = resourcesToLookFor;
         this.movementStrategies = movementStrategies;
         this.allowedAttemptsToLand = allowedAttemptsToLand;
-        this.roverSteps = roverSteps;
     }
 
 
@@ -77,10 +75,6 @@ public class SimulationConfiguration {
 
     public int getAllowedAttemptsToLand() {
         return allowedAttemptsToLand;
-    }
-
-    public List<Action> getRoverSteps() {
-        return roverSteps;
     }
 
 }
