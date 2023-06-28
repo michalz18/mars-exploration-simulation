@@ -21,6 +21,11 @@ public class Rover {
     private Base base;
     private ExplorationOutcome explorationOutcome;
     private TileType inventory;
+
+    public void setDestination(Coordinate destination) {
+        this.destination = destination;
+    }
+
     private Coordinate destination;
     private Action currentActivityAssigned;
 
