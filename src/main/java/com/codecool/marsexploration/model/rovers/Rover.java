@@ -102,4 +102,7 @@ public class Rover {
         return memory.getSize();
     }
 
+    public void setCurrentActivityAssigned(Action currentActivityAssigned) {
+        this.currentActivityAssigned = currentActivityAssigned;
+    }
 }
