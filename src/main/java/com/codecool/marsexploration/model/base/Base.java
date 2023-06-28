@@ -40,4 +40,8 @@ public class Base {
     public Long getId() {
         return id;
     }
+
+    public void setStatus(Status status) {
+        this.status = status;
+    }
 }
