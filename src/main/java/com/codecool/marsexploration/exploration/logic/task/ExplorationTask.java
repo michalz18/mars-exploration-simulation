@@ -21,4 +21,7 @@ public class ExplorationTask extends Task {
     public boolean shouldTaskBePreformed(Rover rover) {
         return rover.getExplorationOutcome().equals(ExplorationOutcome.UNDEFINED);
     }
+
+
+
 }

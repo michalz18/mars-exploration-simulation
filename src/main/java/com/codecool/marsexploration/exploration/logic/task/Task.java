@@ -7,7 +7,7 @@ import com.codecool.marsexploration.model.rovers.Rover;
 import java.util.List;
 
 public abstract class Task {
-    private List<Action> taskSteps;
+    private final List<Action> taskSteps;
 
     public Task(List<Action> taskSteps) {
         this.taskSteps = taskSteps;
