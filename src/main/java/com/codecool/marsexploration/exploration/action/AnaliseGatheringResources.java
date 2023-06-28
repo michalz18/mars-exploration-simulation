@@ -1,6 +1,7 @@
 package com.codecool.marsexploration.exploration.action;
 
 import com.codecool.marsexploration.calculators.model.Coordinate;
+import com.codecool.marsexploration.calculators.service.ClosestResourceCalculator;
 import com.codecool.marsexploration.exploration.model.SimulationContext;
 import com.codecool.marsexploration.model.rovers.Rover;
 import com.codecool.marsexploration.model.rovers.rovermovement.MovementStrategyType;
@@ -9,11 +10,11 @@ import com.codecool.marsexploration.tiletype.TileType;
 public class AnaliseGatheringResources implements Action {
 
     private final TileType resourceToGatherInBase;
-    ResourceFinder resourceFinder;
+    ClosestResourceCalculator closestResourceCalculator;
 
-    public AnaliseGatheringResources(TileType resourceToGatherInBase, ResourceFinder resourceFinder) {
+    public AnaliseGatheringResources(TileType resourceToGatherInBase, ClosestResourceCalculator closestResourceCalculator) {
         this.resourceToGatherInBase = resourceToGatherInBase;
-        this.resourceFinder = resourceFinder;
+        this.closestResourceCalculator = closestResourceCalculator;
     }
 
     @Override
@@ -62,7 +63,7 @@ public class AnaliseGatheringResources implements Action {
     }
 
     private void handleFindingResource(Rover rover) {
-        Coordinate closestWantedResource = resourceFinder.findClosestResource(rover, resourceToGatherInBase);
+        Coordinate closestWantedResource = closestResourceCalculator.findClosestResource(rover, resourceToGatherInBase);
         rover.setDestination(closestWantedResource);
         rover.setCurrentMovementStrategyType(MovementStrategyType.MOVING_TO_A_DESTINATION_COORDINATE);
         rover.setCurrentActivityAssigned(null);

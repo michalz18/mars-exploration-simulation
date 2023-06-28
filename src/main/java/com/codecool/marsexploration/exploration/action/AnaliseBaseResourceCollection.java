@@ -1,6 +1,7 @@
 package com.codecool.marsexploration.exploration.action;
 
 import com.codecool.marsexploration.calculators.model.Coordinate;
+import com.codecool.marsexploration.calculators.service.ClosestResourceCalculator;
 import com.codecool.marsexploration.exploration.model.SimulationContext;
 import com.codecool.marsexploration.model.rovers.Rover;
 import com.codecool.marsexploration.model.rovers.rovermovement.MovementStrategyType;
@@ -10,12 +11,12 @@ public class AnaliseBaseResourceCollection implements Action {
 
     private final Action pickUpResource;
     private final TileType resourceNeededToBuildBase;
-    ResourceFinder resourceFinder;
+    ClosestResourceCalculator resourceFinder;
 
-    public AnaliseBaseResourceCollection(Action pickUpResource, TileType resourceNeededToBuildBase, ResourceFinder resourceFinder) {
+    public AnaliseBaseResourceCollection(Action pickUpResource, TileType resourceNeededToBuildBase, ClosestResourceCalculator closestResourceCalculator) {
         this.pickUpResource = pickUpResource;
         this.resourceNeededToBuildBase = resourceNeededToBuildBase;
-        this.resourceFinder = resourceFinder;
+        this.resourceFinder = closestResourceCalculator;
     }
 
     @Override

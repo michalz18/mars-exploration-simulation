@@ -1,6 +1,7 @@
 package com.codecool.marsexploration.exploration.logic.task;
 
 import com.codecool.marsexploration.calculators.service.CoordinateCalculator;
+import com.codecool.marsexploration.calculators.service.ClosestResourceCalculator;
 import com.codecool.marsexploration.exploration.action.*;
 import com.codecool.marsexploration.logger.FileLogger;
 import com.codecool.marsexploration.model.base.Base;
@@ -31,7 +32,7 @@ class ResourceGatheringTaskTest {
                         new Move(), new AnaliseExploration(mock(OutcomeAnalyser.class)),
                         new Log(mock(FileLogger.class)),
                         new Do(),
-                        new AnaliseGatheringResources(TileType.MINERAL, mock(ResourceFinder.class))
+                        new AnaliseGatheringResources(TileType.MINERAL, mock(ClosestResourceCalculator.class))
                 )
         );
         rover = mock(Rover.class);

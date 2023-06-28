@@ -1,4 +1,4 @@
-package com.codecool.marsexploration.exploration.action;
+package com.codecool.marsexploration.calculators.service;
 
 import com.codecool.marsexploration.calculators.model.Coordinate;
 import com.codecool.marsexploration.model.rovers.Rover;
@@ -6,7 +6,7 @@ import com.codecool.marsexploration.tiletype.TileType;
 
 import java.util.Map;
 
-public class ResourceFinder {
+public class ClosestResourceCalculator {
 
     public Coordinate findClosestResource(Rover rover, TileType resourceNeededToBuildBase) {
         Coordinate currentPosition = rover.getCurrentPosition();
