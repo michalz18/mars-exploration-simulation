@@ -39,10 +39,6 @@ public class Rover {
         explorationOutcome = ExplorationOutcome.UNDEFINED;
     }
 
-    public void setDestination(Coordinate destination) {
-        this.destination = destination;
-    }
-
     public Coordinate getDestination() {
         return destination;
     }

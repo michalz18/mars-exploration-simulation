@@ -4,17 +4,16 @@ import com.codecool.marsexploration.calculators.model.Coordinate;
 import com.codecool.marsexploration.exploration.model.SimulationContext;
 import com.codecool.marsexploration.model.rovers.Rover;
 import com.codecool.marsexploration.model.rovers.rovermovement.MovementStrategyType;
-import com.codecool.marsexploration.model.rovers.rovermovement.MovingToADestinationCoordinate;
 import com.codecool.marsexploration.tiletype.TileType;
-
-import java.util.Map;
 
 public class AnaliseGatheringResources implements Action {
 
     private final TileType resourceToGatherInBase;
+    ResourceFinder resourceFinder;
 
-    public AnaliseGatheringResources(TileType resourceToGatherInBase) {
+    public AnaliseGatheringResources(TileType resourceToGatherInBase, ResourceFinder resourceFinder) {
         this.resourceToGatherInBase = resourceToGatherInBase;
+        this.resourceFinder = resourceFinder;
     }
 
     @Override
@@ -63,33 +62,10 @@ public class AnaliseGatheringResources implements Action {
     }
 
     private void handleFindingResource(Rover rover) {
-        Coordinate closestWantedResource = findClosestResource(resourceToGatherInBase, rover);
+        Coordinate closestWantedResource = resourceFinder.findClosestResource(rover, resourceToGatherInBase);
         rover.setDestination(closestWantedResource);
         rover.setCurrentMovementStrategyType(MovementStrategyType.MOVING_TO_A_DESTINATION_COORDINATE);
         rover.setCurrentActivityAssigned(null);
     }
 
-    private Coordinate findClosestResource(TileType resource, Rover rover) {
-        Coordinate currentPosition = rover.getCurrentPosition();
-        int closestDistance = Integer.MAX_VALUE;
-        Coordinate closestCoordinate = null;
-
-        for (Map.Entry<Coordinate, TileType> entry : rover.getMemory().getMap().entrySet()) {
-            if (entry.getValue() == resource) {
-                int distance = calculateDistance(currentPosition, entry.getKey());
-                if (distance < closestDistance) {
-                    closestDistance = distance;
-                    closestCoordinate = entry.getKey();
-                }
-            }
-        }
-        return closestCoordinate;
-    }
-
-    private int calculateDistance(Coordinate from, Coordinate to) {
-        int dx = from.x() - to.x();
-        int dy = from.x() - to.y();
-
-        return (int) Math.sqrt(dx * dy + dy * dy);
-    }
 }

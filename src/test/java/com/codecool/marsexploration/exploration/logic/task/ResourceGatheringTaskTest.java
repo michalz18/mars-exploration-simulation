@@ -31,7 +31,7 @@ class ResourceGatheringTaskTest {
                         new Move(), new AnaliseExploration(mock(OutcomeAnalyser.class)),
                         new Log(mock(FileLogger.class)),
                         new Do(),
-                        new AnaliseGatheringResources(TileType.MINERAL)
+                        new AnaliseGatheringResources(TileType.MINERAL, mock(ResourceFinder.class))
                 )
         );
         rover = mock(Rover.class);
