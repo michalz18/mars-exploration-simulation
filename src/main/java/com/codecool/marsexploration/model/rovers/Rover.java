@@ -105,4 +105,8 @@ public class Rover {
     public TileType getInventory() {
         return inventory;
     }
+
+    public void setCurrentActivityAssigned(Action currentActivityAssigned) {
+        this.currentActivityAssigned = currentActivityAssigned;
+    }
 }
