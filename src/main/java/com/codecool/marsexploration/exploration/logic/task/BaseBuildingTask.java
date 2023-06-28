@@ -17,7 +17,7 @@ public class BaseBuildingTask extends Task {
     }
 
     @Override
-    public boolean shouldTaskBePreformed(Rover rover) {
+    public boolean shouldTaskBePerformed(Rover rover) {
         return rover.getBase().getStatus().equals(Status.PLANNED) && rover.getInventory().equals(resourceNeededToBuildBase);
     }
 

@@ -1,7 +1,7 @@
 package com.codecool.marsexploration.exploration.logic.task;
 
 import com.codecool.marsexploration.exploration.action.Action;
-import com.codecool.marsexploration.exploration.model.SimulationContext;
+import com.codecool.marsexploration.model.base.Status;
 import com.codecool.marsexploration.model.rovers.Rover;
 
 import java.util.List;
@@ -12,9 +12,7 @@ public class ResourceGatheringTask extends Task {
     }
 
     @Override
-    public boolean shouldTaskBePreformed(Rover rover) {
-        // TODO
-        // true -> rover.base.status = operating
-        return false;
+    public boolean shouldTaskBePerformed(Rover rover) {
+        return rover.getBase().getStatus() == Status.OPERATING;
     }
 }
