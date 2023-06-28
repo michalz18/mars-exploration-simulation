@@ -43,7 +43,7 @@ class ExplorationTaskTest {
         when(rover.getExplorationOutcome()).thenReturn(ExplorationOutcome.UNDEFINED);
 
 
-        boolean actual = explorationTask.shouldTaskBePreformed(rover);
+        boolean actual = explorationTask.shouldTaskBePerformed(rover);
 
 
         assertTrue(actual);
@@ -55,7 +55,7 @@ class ExplorationTaskTest {
         when(rover.getExplorationOutcome()).thenReturn(ExplorationOutcome.TIMEOUT);
 
 
-        boolean actual = explorationTask.shouldTaskBePreformed(rover);
+        boolean actual = explorationTask.shouldTaskBePerformed(rover);
 
 
         assertFalse(actual);

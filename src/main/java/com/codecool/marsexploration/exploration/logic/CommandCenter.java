@@ -17,7 +17,7 @@ public class CommandCenter {
     public void assignTask(SimulationContext simulationContext) {
         simulationContext.getRovers().forEach(rover -> {
             Optional<Task> taskOpt = tasks.stream()
-                    .filter(task -> task.shouldTaskBePreformed(rover))
+                    .filter(task -> task.shouldTaskBePerformed(rover))
                     .findFirst();
             taskOpt
                     .ifPresent(task -> task.performTask(rover, simulationContext));
