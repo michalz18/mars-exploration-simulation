@@ -1,6 +1,9 @@
 package com.codecool.marsexploration.model.base;
 
 import com.codecool.marsexploration.calculators.model.Coordinate;
+import com.codecool.marsexploration.calculators.service.CoordinateCalculator;
+import com.codecool.marsexploration.calculators.service.CoordinateCalculatorImpl;
+import com.codecool.marsexploration.model.map.MarsMap;
 import com.codecool.marsexploration.tiletype.TileType;
 
 import java.util.List;
