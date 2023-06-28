@@ -5,6 +5,7 @@ import com.codecool.marsexploration.exploration.action.Action;
 import com.codecool.marsexploration.model.base.Base;
 import com.codecool.marsexploration.model.map.MarsMap;
 import com.codecool.marsexploration.model.rovers.rovermovement.MovementStrategyType;
+import com.codecool.marsexploration.model.rovers.rovermovement.MovingToADestinationCoordinate;
 import com.codecool.marsexploration.outcome.ExplorationOutcome;
 import com.codecool.marsexploration.tiletype.TileType;
 
@@ -24,7 +25,6 @@ public class Rover {
     private Coordinate destination;
     private Action currentActivityAssigned;
 
-
     public Rover(int sight, Base base, MovementStrategyType movementStrategyType) {
         this.id = count;
         this.sight = sight;
@@ -32,6 +32,10 @@ public class Rover {
         this.currentMovementStrategyType = movementStrategyType;
         memory = new MarsMap(new HashMap<>());
         explorationOutcome = ExplorationOutcome.UNDEFINED;
+    }
+
+    public void setDestination(Coordinate destination) {
+        this.destination = destination;
     }
 
     public Coordinate getDestination() {
@@ -97,7 +101,6 @@ public class Rover {
     public void setCurrentMovementStrategyType(MovementStrategyType currentMovementStrategyType) {
         this.currentMovementStrategyType = currentMovementStrategyType;
     }
-
     public int getExploredMapSize() {
         return memory.getSize();
     }
