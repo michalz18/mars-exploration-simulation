@@ -105,4 +105,8 @@ public class Rover {
     public void setCurrentActivityAssigned(Action currentActivityAssigned) {
         this.currentActivityAssigned = currentActivityAssigned;
     }
+
+    public Action getCurrentActivityAssigned() {
+        return currentActivityAssigned;
+    }
 }
