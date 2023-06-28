@@ -101,4 +101,5 @@ public class Rover {
     public int getExploredMapSize() {
         return memory.getSize();
     }
+
 }
