@@ -2,6 +2,7 @@ package com.codecool.marsexploration.exploration.action;
 
 import com.codecool.marsexploration.exploration.model.SimulationContext;
 import com.codecool.marsexploration.model.rovers.Rover;
+import com.codecool.marsexploration.model.rovers.rovermovement.MovementStrategyType;
 
 public class AnaliseBaseBuild implements Action {
 
@@ -11,15 +12,14 @@ public class AnaliseBaseBuild implements Action {
         this.baseBuilding = baseBuilding;
     }
 
-
     @Override
     public void takeAction(Rover rover, SimulationContext simulationContext) {
-        // TODO
+        rover.setCurrentMovementStrategyType(MovementStrategyType.MOVING_TO_A_DESTINATION_COORDINATE);
 
-        // setMovingStrategy to moving-to-a-destination-coordinate(my-base)
-        // if (jestem na koordynacie baza)
-        //  -> nadaj roverovi pamięć na currentActivityAssingn na budowanie bazy
-        // else
-        //  -> ustaw zadanie na null
+        if (rover.getCurrentPosition().equals(rover.getBase().getPosition())) {
+            rover.setCurrentActivityAssigned(baseBuilding);
+        } else {
+            rover.setCurrentActivityAssigned(null);
+        }
     }
 }
