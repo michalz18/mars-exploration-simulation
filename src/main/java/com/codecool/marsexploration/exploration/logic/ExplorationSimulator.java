@@ -4,7 +4,6 @@ import com.codecool.marsexploration.configuration.ConfigurationValidator;
 import com.codecool.marsexploration.configuration.SimulationConfiguration;
 import com.codecool.marsexploration.exploration.logic.deployer.MissionDeployer;
 import com.codecool.marsexploration.model.base.Status;
-import com.codecool.marsexploration.model.rovers.rovermovement.MovementStrategyType;
 import com.codecool.marsexploration.exploration.model.SimulationContext;
 import com.codecool.marsexploration.logger.Logger;
 
@@ -12,7 +11,6 @@ import com.codecool.marsexploration.maploader.MapLoader;
 import com.codecool.marsexploration.model.base.Base;
 import com.codecool.marsexploration.model.map.MarsMap;
 import com.codecool.marsexploration.model.rovers.Rover;
-import com.codecool.marsexploration.outcome.ExplorationOutcome;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -58,7 +56,7 @@ public class ExplorationSimulator {
         List<Rover> rovers = new ArrayList<>();
         rovers.add(rover);
         SimulationContext simulationContext = init(configuration, rovers, spaceship, marsMap);
-        commandCenter.runSimulationSteps(simulationContext);
+        commandCenter.runSimulationSteps(simulationContext, logger);
     }
 
     public SimulationContext init(SimulationConfiguration configuration, List<Rover> rovers, Base spaceship, MarsMap marsMap) {
@@ -68,7 +66,7 @@ public class ExplorationSimulator {
                         configuration.getTimeoutSteps(),
                         rovers, spaceship, marsMap,
                         configuration.getResourcesToLookFor(),
-                        configuration.getMovementStrategies());
+                        configuration.getMovementStrategies(), configuration.getSuccessfulBasesThreshold());
     }
 
 }

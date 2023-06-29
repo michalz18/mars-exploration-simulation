@@ -31,5 +31,5 @@ public interface Logger {
 
     void loggMapFailedToLoad();
 
-    void loggExplorationOutcome(ExplorationOutcome explorationOutcome);
+    void loggMissionSuccess(int bases);
 }

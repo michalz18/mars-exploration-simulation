@@ -1,9 +1,7 @@
 package com.codecool.marsexploration.exploration.model;
 
-import com.codecool.marsexploration.exploration.action.Action;
 import com.codecool.marsexploration.model.rovers.rovermovement.MovementStrategy;
 import com.codecool.marsexploration.model.rovers.rovermovement.MovementStrategyType;
-import com.codecool.marsexploration.outcome.ExplorationOutcome;
 import com.codecool.marsexploration.tiletype.TileType;
 import com.codecool.marsexploration.model.base.Base;
 import com.codecool.marsexploration.model.map.MarsMap;
@@ -22,9 +20,10 @@ public class SimulationContext {
     private final Set<TileType> resourcesToLookFor;
 
     private final Map<MovementStrategyType, MovementStrategy> movementStrategies;
+    private final int successfulBasesThreshold;
 
 
-    public SimulationContext(int steps, int timeoutSteps, List<Rover> rovers, Base spaceship, MarsMap marsMap, Set<TileType> resourcesToLookFor, Map<MovementStrategyType, MovementStrategy> movementStrategies) {
+    public SimulationContext(int steps, int timeoutSteps, List<Rover> rovers, Base spaceship, MarsMap marsMap, Set<TileType> resourcesToLookFor, Map<MovementStrategyType, MovementStrategy> movementStrategies, int successfulBasesThreshold) {
         this.steps = steps;
         this.timeoutSteps = timeoutSteps;
         this.rovers = rovers;
@@ -32,14 +31,11 @@ public class SimulationContext {
         this.marsMap = marsMap;
         this.resourcesToLookFor = resourcesToLookFor;
         this.movementStrategies = movementStrategies;
+        this.successfulBasesThreshold = successfulBasesThreshold;
     }
 
     public int getSteps() {
         return steps;
-    }
-
-    public void setSteps(int steps) {
-        this.steps = steps;
     }
 
     public int getTimeoutSteps() {
@@ -53,24 +49,9 @@ public class SimulationContext {
     public void setRovers(List<Rover> rovers) {
         this.rovers = rovers;
     }
-
-
-    public Base getSpaceship() {
-        return spaceship;
-    }
-
-    public void setSpaceship(Base spaceship) {
-        this.spaceship = spaceship;
-    }
-
     public MarsMap getMarsMap() {
         return marsMap;
     }
-
-    public void setMarsMap(MarsMap marsMap) {
-        this.marsMap = marsMap;
-    }
-
     public Set<TileType> getResourcesToLookFor() {
         return resourcesToLookFor;
     }
@@ -86,16 +67,11 @@ public class SimulationContext {
     public int getMarsMapSize() {
         return marsMap.getSize();
     }
-
-    public int getExploredMapSize(Rover rover) {
-        return rover.getExploredMapSize();
-    }
-
-    public void changeRoverStrategyToReturning(Rover rover) {
-        rover.setCurrentMovementStrategyType(MovementStrategyType.RETURNING);
-    }
-
     public void addRover(Rover rover) {
         rovers.add(rover);
+    }
+
+    public int getSuccessfulBasesThreshold() {
+        return successfulBasesThreshold;
     }
 }

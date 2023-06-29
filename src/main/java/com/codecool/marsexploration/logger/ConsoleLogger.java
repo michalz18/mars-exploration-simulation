@@ -53,8 +53,7 @@ public class ConsoleLogger implements Logger {
     }
 
     @Override
-    public void loggExplorationOutcome(ExplorationOutcome explorationOutcome) {
-        String errorEntry = messageGenerator.generateLogForExplorationOutcome(explorationOutcome);
-        System.out.println(errorEntry);
+    public void loggMissionSuccess(int bases) {
+        System.out.println(messageGenerator.generateMissionSuccessMessage(bases));
     }
 }

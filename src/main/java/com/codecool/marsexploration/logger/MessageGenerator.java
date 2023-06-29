@@ -26,4 +26,6 @@ public interface MessageGenerator {
     String generateMapFailedToLoadEntry();
 
     String generateLogForExplorationOutcome(ExplorationOutcome explorationOutcome);
+
+    String generateMissionSuccessMessage(int bases);
 }

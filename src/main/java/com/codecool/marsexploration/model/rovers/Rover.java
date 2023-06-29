@@ -5,7 +5,6 @@ import com.codecool.marsexploration.exploration.action.Action;
 import com.codecool.marsexploration.model.base.Base;
 import com.codecool.marsexploration.model.map.MarsMap;
 import com.codecool.marsexploration.model.rovers.rovermovement.MovementStrategyType;
-import com.codecool.marsexploration.model.rovers.rovermovement.MovingToADestinationCoordinate;
 import com.codecool.marsexploration.outcome.ExplorationOutcome;
 import com.codecool.marsexploration.tiletype.TileType;
 
@@ -40,6 +39,7 @@ public class Rover {
         memory = new MarsMap(new HashMap<>());
         explorationOutcome = ExplorationOutcome.UNDEFINED;
         inventory = TileType.EMPTY;
+        count++;
     }
 
     public Coordinate getDestination() {
@@ -86,10 +86,6 @@ public class Rover {
         return currentMovementStrategyType;
     }
 
-    public boolean hasExplorationEnded() {
-        return explorationOutcome != ExplorationOutcome.UNDEFINED;
-    }
-
     public void setMemory(MarsMap memory) {
         this.memory = memory;
     }
@@ -127,5 +123,14 @@ public class Rover {
 
     public void emptyInventory() {
         inventory = TileType.EMPTY;
+    }
+
+    public boolean isInventoryFull() {
+        return !inventory.equals(TileType.EMPTY);
+    }
+
+    public void passResourcesToBase() {
+        base.addResources(inventory);
+        emptyInventory();
     }
 }

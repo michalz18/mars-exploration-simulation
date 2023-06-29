@@ -70,8 +70,7 @@ public class FileLogger implements Logger {
     }
 
     @Override
-    public void loggExplorationOutcome(ExplorationOutcome explorationOutcome) {
-        String message = messageGenerator.generateLogForExplorationOutcome(explorationOutcome);
-        writeToFile(message);
+    public void loggMissionSuccess(int bases) {
+        writeToFile(messageGenerator.generateMissionSuccessMessage(bases));
     }
 }

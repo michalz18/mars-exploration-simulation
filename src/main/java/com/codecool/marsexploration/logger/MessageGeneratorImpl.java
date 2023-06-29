@@ -52,4 +52,8 @@ public class MessageGeneratorImpl implements MessageGenerator {
     public String generateLogForExplorationOutcome(ExplorationOutcome explorationOutcome) {
         return "Mission outcome: "+ explorationOutcome.toString();
     }
+    @Override
+    public String generateMissionSuccessMessage(int bases) {
+        return "Mission outcome: " + bases + " bases were successfully created";
+    }
 }

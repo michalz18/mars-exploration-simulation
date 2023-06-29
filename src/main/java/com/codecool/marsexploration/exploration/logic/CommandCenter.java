@@ -2,6 +2,7 @@ package com.codecool.marsexploration.exploration.logic;
 
 import com.codecool.marsexploration.exploration.logic.task.Task;
 import com.codecool.marsexploration.exploration.model.SimulationContext;
+import com.codecool.marsexploration.logger.Logger;
 import com.codecool.marsexploration.model.base.Base;
 import com.codecool.marsexploration.model.base.Status;
 import com.codecool.marsexploration.model.rovers.Rover;
@@ -19,10 +20,10 @@ public class CommandCenter {
         this.tasks = tasks;
     }
 
-    public void runSimulationSteps(SimulationContext simulationContext) {
+    public void runSimulationSteps(SimulationContext simulationContext, Logger logger) {
         System.out.println("start");
-        boolean isSimulationRunning = true;
-        boolean canRoversContinueTheirTasks = true;
+        boolean isSimulationRunning;
+        boolean canRoversContinueTheirTasks;
         do {
             runRovers(simulationContext);
             runBases(simulationContext);
@@ -31,9 +32,9 @@ public class CommandCenter {
                             rover.getExplorationOutcome().equals(ExplorationOutcome.RESOURCES_FOUND));
             isSimulationRunning = getBases(simulationContext)
                     .filter(base -> base.getStatus().equals(Status.OPERATING))
-                    .count() <= 2;
+                    .count() <= simulationContext.getSuccessfulBasesThreshold();
         } while (canRoversContinueTheirTasks && isSimulationRunning && simulationContext.getSteps() < simulationContext.getTimeoutSteps());
-        System.out.println("HURRAH!");
+        logger.loggMissionSuccess(simulationContext.getSuccessfulBasesThreshold());
     }
 
     private void runBases(SimulationContext simulationContext) {
@@ -41,7 +42,7 @@ public class CommandCenter {
                 .filter(base -> base.getStatus().equals(Status.BUILD))
                 .toList();
         for (Base base : bases) {
-//            simulationContext.addRover(base.buildRover());
+            simulationContext.addRover(base.buildRover());
             base.setStatus(Status.OPERATING);
         }
     }

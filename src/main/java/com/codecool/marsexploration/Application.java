@@ -3,24 +3,17 @@ package com.codecool.marsexploration;
 import com.codecool.marsexploration.calculators.service.CoordinateCalculatorImpl;
 import com.codecool.marsexploration.configuration.ConfigurationValidator;
 import com.codecool.marsexploration.configuration.SimulationConfiguration;
-import com.codecool.marsexploration.exploration.action.*;
 import com.codecool.marsexploration.exploration.logic.CommandCenter;
 import com.codecool.marsexploration.exploration.logic.ExplorationSimulator;
 import com.codecool.marsexploration.exploration.logic.deployer.MissionDeployer;
 import com.codecool.marsexploration.exploration.logic.deployer.RoverDeployer;
-import com.codecool.marsexploration.logger.ConsoleLogger;
 import com.codecool.marsexploration.logger.FileLogger;
 import com.codecool.marsexploration.logger.Logger;
 import com.codecool.marsexploration.logger.MessageGeneratorImpl;
 import com.codecool.marsexploration.maploader.MapLoaderImpl;
 import com.codecool.marsexploration.model.rovers.rovermovement.*;
-import com.codecool.marsexploration.outcome.OutcomeAnalyser;
-import com.codecool.marsexploration.outcome.analysers.MapAnalyser;
-import com.codecool.marsexploration.outcome.analysers.ResourceAnalyser;
-import com.codecool.marsexploration.outcome.analysers.StepAnalyser;
 import com.codecool.marsexploration.tiletype.TileType;
 
-import java.util.List;
 import java.util.Set;
 
 public class Application {
@@ -30,8 +23,7 @@ public class Application {
     public static void main(String[] args) {
         CoordinateCalculatorImpl coordinateCalculator = new CoordinateCalculatorImpl();
         MissionDeployer missionDeployer = new MissionDeployer(new RoverDeployer(coordinateCalculator));
-//        Logger logger = new FileLogger(LOG_DIR, new MessageGeneratorImpl());
-        Logger logger = new ConsoleLogger(new MessageGeneratorImpl());
+        Logger logger = new FileLogger(LOG_DIR, new MessageGeneratorImpl());
         CommandCenter commandCenter = new CommandCenterDefaultGenerator().createCommandCenter(logger);
         ExplorationSimulator explorationSimulator = new ExplorationSimulator(logger, missionDeployer, new MapLoaderImpl(), new ConfigurationValidator(), commandCenter);
         java.util.Map<MovementStrategyType, MovementStrategy> movementStrategies = java.util.Map.of(
@@ -44,7 +36,7 @@ public class Application {
                 MAP_EXAMPLE_PATH,
                 Set.of(TileType.WATER, TileType.MINERAL),
                 movementStrategies,
-                3);
+                3, 3);
         explorationSimulator.runSimulation(simulationConfiguration);
     }
 

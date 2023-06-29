@@ -1,12 +1,9 @@
 package com.codecool.marsexploration.configuration;
 
-import com.codecool.marsexploration.exploration.action.Action;
 import com.codecool.marsexploration.model.rovers.rovermovement.MovementStrategy;
 import com.codecool.marsexploration.model.rovers.rovermovement.MovementStrategyType;
-import com.codecool.marsexploration.outcome.ExplorationOutcome;
 import com.codecool.marsexploration.tiletype.TileType;
 
-import java.util.List;
 import java.util.Map;
 import java.util.Objects;
 import java.util.Set;
@@ -19,14 +16,17 @@ public class SimulationConfiguration {
 
     private final int allowedAttemptsToLand;
 
+    private final int successfulBasesThreshold;
+
 
     public SimulationConfiguration(int timeoutSteps, String filePath, Set<TileType> resourcesToLookFor,
-                                   Map<MovementStrategyType, MovementStrategy> movementStrategies, int allowedAttemptsToLand) {
+                                   Map<MovementStrategyType, MovementStrategy> movementStrategies, int allowedAttemptsToLand, int successfulBasesThreshold) {
         this.timeoutSteps = timeoutSteps;
         this.filePath = filePath;
         this.resourcesToLookFor = resourcesToLookFor;
         this.movementStrategies = movementStrategies;
         this.allowedAttemptsToLand = allowedAttemptsToLand;
+        this.successfulBasesThreshold = successfulBasesThreshold;
     }
 
 
@@ -77,4 +77,7 @@ public class SimulationConfiguration {
         return allowedAttemptsToLand;
     }
 
+    public int getSuccessfulBasesThreshold() {
+        return successfulBasesThreshold;
+    }
 }
