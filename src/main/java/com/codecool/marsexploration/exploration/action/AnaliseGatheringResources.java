@@ -36,11 +36,11 @@ public class AnaliseGatheringResources implements Action {
     }
 
     private boolean isFindingResource(Rover rover, TileType currentTile) {
-        return rover.getInventory() == null && !currentTile.equals(resourceToGatherInBase);
+        return rover.getInventory() == TileType.EMPTY && !currentTile.equals(resourceToGatherInBase);
     }
 
     private boolean isPickingUpResource(Rover rover, TileType currentTile) {
-        return rover.getInventory() == resourceToGatherInBase && currentTile.equals(resourceToGatherInBase);
+        return rover.getInventory() == TileType.EMPTY && currentTile.equals(resourceToGatherInBase);
     }
 
     private boolean isMovingToBase(Rover rover) {

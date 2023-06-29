@@ -14,7 +14,8 @@ public class BasePlacementTask extends Task {
 
     @Override
     public boolean shouldTaskBePerformed(Rover rover) {
-        return rover.getExplorationOutcome().equals(ExplorationOutcome.RESOURCES_FOUND);
+        return rover.getExplorationOutcome().equals(ExplorationOutcome.RESOURCES_FOUND) &&
+                !rover.getBase().getStatus().equals(Status.PLANNED) && rover.getCurrentTask().equals("EXPLORATION");
     }
 
 }

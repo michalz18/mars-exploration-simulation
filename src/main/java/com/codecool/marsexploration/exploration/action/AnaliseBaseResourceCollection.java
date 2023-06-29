@@ -21,27 +21,19 @@ public class AnaliseBaseResourceCollection implements Action {
 
     @Override
     public void takeAction(Rover rover, SimulationContext simulationContext) {
-        if (!didIHaveResourceNeededToBuildBase(rover)) {
-            if (!didIStayOnResource(rover)) {
-                Coordinate wantedCoordinate = resourceFinder.findClosestResource(rover, resourceNeededToBuildBase);
-                if (wantedCoordinate != null) {
-                    setMovingStrategyToDestination(rover, wantedCoordinate);
-                }
-                rover.setCurrentActivityAssigned(null);
+        if (!didIStayOnResource(rover)) {
+            Coordinate wantedCoordinate = resourceFinder.findClosestResource(rover, resourceNeededToBuildBase);
+            if (wantedCoordinate != null) {
+                setMovingStrategyToDestination(rover, wantedCoordinate);
             }
+            rover.setCurrentActivityAssigned(null);
         } else {
-            if (didIStayOnResource(rover)) {
-                rover.setCurrentActivityAssigned(pickUpResource);
-            }
+            rover.setCurrentActivityAssigned(pickUpResource);
         }
     }
 
     private boolean didIStayOnResource(Rover rover) {
         return rover.getCurrentPosition().equals(rover.getDestination());
-    }
-
-    private boolean didIHaveResourceNeededToBuildBase(Rover rover) {
-        return rover.getInventory() == resourceNeededToBuildBase;
     }
 
     private void setMovingStrategyToDestination(Rover rover, Coordinate destination) {

@@ -39,6 +39,7 @@ public class Rover {
         this.currentPosition = currentPosition;
         memory = new MarsMap(new HashMap<>());
         explorationOutcome = ExplorationOutcome.UNDEFINED;
+        inventory = TileType.EMPTY;
     }
 
     public Coordinate getDestination() {
@@ -122,5 +123,9 @@ public class Rover {
 
     public void setCurrentTask(String currentTask) {
         this.currentTask = currentTask;
+    }
+
+    public void emptyInventory() {
+        inventory = TileType.EMPTY;
     }
 }

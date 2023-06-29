@@ -2,10 +2,9 @@ package com.codecool.marsexploration.calculators.service;
 
 import com.codecool.marsexploration.calculators.model.Coordinate;
 import com.codecool.marsexploration.model.map.MarsMap;
+import com.codecool.marsexploration.tiletype.TileType;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class CoordinateCalculatorImpl implements CoordinateCalculator {
@@ -20,6 +19,15 @@ public class CoordinateCalculatorImpl implements CoordinateCalculator {
         int x = random.nextInt(dimension);
         int y = random.nextInt(dimension);
         return new Coordinate(x, y);
+    }
+
+    @Override
+    public Optional<Coordinate> getRandomCoordinate(List<Coordinate> coordinates) {
+        if (coordinates.isEmpty()) {
+            return Optional.empty();
+        } else {
+            return Optional.of(coordinates.get(new Random().nextInt(coordinates.size())));
+        }
     }
 
     @Override
@@ -74,5 +82,10 @@ public class CoordinateCalculatorImpl implements CoordinateCalculator {
     public List<Coordinate> getAdjacentCoordinates(Coordinate coordinate, MarsMap marsMap) {
         List<Coordinate> possibleCoordinates = List.of(coordinate.getUp(), coordinate.getDown(), coordinate.getLeft(), coordinate.getRight());
         return marsMap.getCoordinatesThatAreOnTheMap(possibleCoordinates);
+    }
+
+    @Override
+    public List<Coordinate> getOnlyEmptyCoordinates(List<Coordinate> coordinates, MarsMap marsMap) {
+        return coordinates.stream().filter(coordinate -> marsMap.getMap().get(coordinate).equals(TileType.EMPTY)).toList();
     }
 }

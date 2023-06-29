@@ -9,8 +9,7 @@ public class BuildBase implements Action {
     @Override
     public void takeAction(Rover rover, SimulationContext simulationContext) {
         rover.getBase().setStatus(Status.BUILD);
-
-        rover.setInventory(null);
+        rover.emptyInventory();
 
         simulationContext.getMarsMap().setTileType(rover.getBase().getPosition(), TileType.BASE);
     }

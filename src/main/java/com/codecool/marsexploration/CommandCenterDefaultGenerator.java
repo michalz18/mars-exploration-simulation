@@ -30,7 +30,7 @@ public class CommandCenterDefaultGenerator {
         Action doAction = new Do();
         Action log = new Log(logger);
         Action move = new Move();
-        Action planBase = new PlanBase(new ClosestResourceCalculator());
+        Action planBase = new PlanBase(new ClosestResourceCalculator(), coordinateCalculator);
         Action scan = new Scan(coordinateCalculator);
         ExplorationTask explorationTask = new ExplorationTask(List.of(scan, analiseExploration, log, move), "EXPLORATION");
         BasePlacementTask basePlacementTask = new BasePlacementTask(List.of(planBase), "BASE PLANNING");

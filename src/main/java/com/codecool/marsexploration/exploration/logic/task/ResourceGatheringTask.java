@@ -12,6 +12,6 @@ public class ResourceGatheringTask extends Task {
     }
     @Override
     public boolean shouldTaskBePerformed(Rover rover) {
-        return rover.getBase().getStatus() == Status.OPERATING;
+        return rover.getBase().getStatus().equals(Status.OPERATING);
     }
 }

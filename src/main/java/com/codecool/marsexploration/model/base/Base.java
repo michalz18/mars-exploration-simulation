@@ -50,10 +50,6 @@ public class Base {
         return id;
     }
 
-    public void setStatus(Status status) {
-        this.status = status;
-    }
-
     public Rover buildRover() {
         return new Rover(3, this, position);
     }

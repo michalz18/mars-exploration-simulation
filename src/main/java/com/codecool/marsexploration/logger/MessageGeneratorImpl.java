@@ -28,8 +28,8 @@ public class MessageGeneratorImpl implements MessageGenerator {
                 .map(entry -> entry.getKey() + " amount: " + entry.getValue())
                 .collect(Collectors.joining(", "));
 
-        return String.format("[%d] %s: Rover at (%d, %d), Steps: %d, Current task: %s, Base status: %s, Resources Found: %s, Movement Strategy: %s, Outcome: %s",
-                roverId, LocalDate.now(), coordinate.x(), coordinate.y(), amountOfStep, currentTask, baseStatus, resourcesString,
+        return String.format("[%d] %s: Rover at (%d, %d), Steps: %d, Current task: %s, Base status: %s, Inventory: %s, Movement Strategy: %s, Outcome: %s",
+                roverId, LocalDate.now(), coordinate.x(), coordinate.y(), amountOfStep, currentTask, baseStatus, inventory,
                 movementStrategy, explorationOutcome);
     }
 
