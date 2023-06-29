@@ -1,6 +1,7 @@
 package com.codecool.marsexploration.exploration.action;
 
 import com.codecool.marsexploration.calculators.model.Coordinate;
+import com.codecool.marsexploration.calculators.service.ClosestResourceCalculator;
 import com.codecool.marsexploration.exploration.model.SimulationContext;
 import com.codecool.marsexploration.model.base.Base;
 import com.codecool.marsexploration.model.base.Status;
@@ -11,9 +12,9 @@ import com.codecool.marsexploration.tiletype.TileType;
 import java.util.Map;
 
 public class PlanBase implements Action {
-    ResourceFinder resourceFinder;
+    ClosestResourceCalculator resourceFinder;
 
-    public PlanBase(ResourceFinder resourceFinder) {
+    public PlanBase(ClosestResourceCalculator resourceFinder) {
         this.resourceFinder = resourceFinder;
     }
 

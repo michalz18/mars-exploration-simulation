@@ -24,13 +24,13 @@ public class CommandCenterDefaultGenerator {
         OutcomeAnalyser outcomeAnalyser =
                 new OutcomeAnalyser(List.of(new ResourceAnalyser(), new MapAnalyser(0.75), new StepAnalyser()));
         Action analiseBaseBuild = new AnaliseBaseBuild(new BuildBase());
-        Action analiseBaseResourceCollection = new AnaliseBaseResourceCollection(new PickUpResource(),resourceNeededToBuildBase, resourceCalculator);
+        Action analiseBaseResourceCollection = new AnaliseBaseResourceCollection(new PickUpResource(), resourceNeededToBuildBase, resourceCalculator);
         Action analiseExploration = new AnaliseExploration(outcomeAnalyser);
         Action analiseGatheringResources = new AnaliseGatheringResources(new PassResourceToBase(), TileType.WATER, resourceCalculator);
         Action doAction = new Do();
         Action log = new Log(logger);
         Action move = new Move();
-        Action planBase = new PlanBase();
+        Action planBase = new PlanBase(new ClosestResourceCalculator());
         Action scan = new Scan(coordinateCalculator);
         ExplorationTask explorationTask = new ExplorationTask(List.of(scan, analiseExploration, log, move), "EXPLORATION");
         BasePlacementTask basePlacementTask = new BasePlacementTask(List.of(planBase), "BASE PLANNING");
