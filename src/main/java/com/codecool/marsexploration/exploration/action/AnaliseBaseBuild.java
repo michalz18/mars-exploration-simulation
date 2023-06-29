@@ -15,11 +15,6 @@ public class AnaliseBaseBuild implements Action {
 
     @Override
     public void takeAction(Rover rover, SimulationContext simulationContext) {
-        TileType check = null;
-        if (rover.getDestination() != null) {
-            check = simulationContext.getMarsMap().getTileType(rover.getDestination());
-        }
-        System.out.println(check);
         rover.setDestination(rover.getBase().getPosition());
         rover.setCurrentMovementStrategyType(MovementStrategyType.MOVING_TO_A_DESTINATION_COORDINATE);
         if (rover.getCurrentPosition().equals(rover.getBase().getPosition())) {

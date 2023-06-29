@@ -34,7 +34,17 @@ public class CommandCenter {
                     .filter(base -> base.getStatus().equals(Status.OPERATING))
                     .count() <= simulationContext.getSuccessfulBasesThreshold();
         } while (canRoversContinueTheirTasks && isSimulationRunning && simulationContext.getSteps() < simulationContext.getTimeoutSteps());
-        logger.loggMissionSuccess(simulationContext.getSuccessfulBasesThreshold());
+        loggOutcome(simulationContext, logger, isSimulationRunning, canRoversContinueTheirTasks);
+    }
+
+    private void loggOutcome(SimulationContext simulationContext, Logger logger, boolean isSimulationRunning, boolean canRoversContinueTheirTasks) {
+        if (!canRoversContinueTheirTasks) {
+            logger.loggMarsUncolonizable();
+        } else if (!isSimulationRunning) {
+            logger.loggMissionSuccess(simulationContext.getSuccessfulBasesThreshold());
+        } else {
+            logger.logTimeout();
+        }
     }
 
     private void runBases(SimulationContext simulationContext) {
@@ -55,8 +65,7 @@ public class CommandCenter {
                     taskOpt
                             .ifPresent(task -> {
                                 rover.setCurrentTask(task.getTaskName());
-                                task.performTask(rover, simulationContext);
-                            });
+                                task.performTask(rover, simulationContext);});
     });
     }
     private Stream<Base> getBases(SimulationContext simulationContext) {

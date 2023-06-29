@@ -28,4 +28,8 @@ public interface MessageGenerator {
     String generateLogForExplorationOutcome(ExplorationOutcome explorationOutcome);
 
     String generateMissionSuccessMessage(int bases);
+
+    String generateMarsIsUncolonizable();
+
+    String generateTimeoutMessage();
 }

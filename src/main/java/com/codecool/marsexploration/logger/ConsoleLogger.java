@@ -56,4 +56,14 @@ public class ConsoleLogger implements Logger {
     public void loggMissionSuccess(int bases) {
         System.out.println(messageGenerator.generateMissionSuccessMessage(bases));
     }
+
+    @Override
+    public void loggMarsUncolonizable() {
+        System.out.println(messageGenerator.generateMarsIsUncolonizable());
+    }
+
+    @Override
+    public void logTimeout() {
+        System.out.println(messageGenerator.generateTimeoutMessage());
+    }
 }

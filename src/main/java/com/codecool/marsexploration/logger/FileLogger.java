@@ -73,4 +73,14 @@ public class FileLogger implements Logger {
     public void loggMissionSuccess(int bases) {
         writeToFile(messageGenerator.generateMissionSuccessMessage(bases));
     }
+
+    @Override
+    public void loggMarsUncolonizable() {
+        writeToFile(messageGenerator.generateMarsIsUncolonizable());
+    }
+
+    @Override
+    public void logTimeout() {
+        writeToFile(messageGenerator.generateTimeoutMessage());
+    }
 }

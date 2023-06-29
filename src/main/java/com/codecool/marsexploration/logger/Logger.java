@@ -32,4 +32,8 @@ public interface Logger {
     void loggMapFailedToLoad();
 
     void loggMissionSuccess(int bases);
+
+    void loggMarsUncolonizable();
+
+    void logTimeout();
 }

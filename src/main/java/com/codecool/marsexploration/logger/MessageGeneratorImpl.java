@@ -56,4 +56,14 @@ public class MessageGeneratorImpl implements MessageGenerator {
     public String generateMissionSuccessMessage(int bases) {
         return "Mission outcome: " + bases + " bases were successfully created";
     }
+
+    @Override
+    public String generateMarsIsUncolonizable() {
+        return "Mission outcome: Mars is uncolonizable";
+    }
+
+    @Override
+    public String generateTimeoutMessage() {
+        return "Mission outcome: Timeout has been reached";
+    }
 }

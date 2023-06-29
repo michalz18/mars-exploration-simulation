@@ -16,7 +16,7 @@ public class ResourceAnalyser implements Analyser {
         Set<TileType> resourcesToLookFor = context.getResourcesToLookFor();
         boolean resourcesFound = resourcesToLookFor.stream()
                 .map(rover.getMemory()::getNumberOfResourcesInMap)
-                .allMatch(count -> count > 0);
+                .allMatch(count -> count > 2);
         return resourcesFound ? Optional.of(ExplorationOutcome.RESOURCES_FOUND) : Optional.empty();
     }
 }
