@@ -27,9 +27,9 @@ public class Application {
         CommandCenter commandCenter = new CommandCenterDefaultGenerator().createCommandCenter(logger);
         ExplorationSimulator explorationSimulator = new ExplorationSimulator(logger, missionDeployer, new MapLoaderImpl(), new ConfigurationValidator(), commandCenter);
         java.util.Map<MovementStrategyType, MovementStrategy> movementStrategies = java.util.Map.of(
-                MovementStrategyType.EXPLORING, new ExploringStrategy(coordinateCalculator),
+                MovementStrategyType.EXPLORING, new ExploringStrategy(coordinateCalculator, new CommonMarsMapBuilder()),
                 MovementStrategyType.RETURNING, new ReturningStrategy(),
-                MovementStrategyType.MOVING_TO_A_DESTINATION_COORDINATE, new MovingToADestinationCoordinate()
+                MovementStrategyType.MOVING_TO_A_DESTINATION_COORDINATE, new MovingToADestinationCoordinate(new CommonMarsMapBuilder())
                 );
         SimulationConfiguration simulationConfiguration = new SimulationConfiguration(
                 1000,

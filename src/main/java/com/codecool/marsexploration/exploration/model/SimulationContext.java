@@ -1,5 +1,6 @@
 package com.codecool.marsexploration.exploration.model;
 
+import com.codecool.marsexploration.calculators.model.Coordinate;
 import com.codecool.marsexploration.model.rovers.rovermovement.MovementStrategy;
 import com.codecool.marsexploration.model.rovers.rovermovement.MovementStrategyType;
 import com.codecool.marsexploration.tiletype.TileType;
@@ -7,6 +8,7 @@ import com.codecool.marsexploration.model.base.Base;
 import com.codecool.marsexploration.model.map.MarsMap;
 import com.codecool.marsexploration.model.rovers.Rover;
 
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -21,7 +23,15 @@ public class SimulationContext {
 
     private final Map<MovementStrategyType, MovementStrategy> movementStrategies;
     private final int successfulBasesThreshold;
+    Map<Coordinate, TileType> commonMarsMap = new HashMap<>();
 
+    public void setCommonMarsMap(Map<Coordinate, TileType> commonMarsMap) {
+        this.commonMarsMap = commonMarsMap;
+    }
+
+    public Map<Coordinate, TileType> getCommonMarsMap() {
+        return commonMarsMap;
+    }
 
     public SimulationContext(int steps, int timeoutSteps, List<Rover> rovers, Base spaceship, MarsMap marsMap, Set<TileType> resourcesToLookFor, Map<MovementStrategyType, MovementStrategy> movementStrategies, int successfulBasesThreshold) {
         this.steps = steps;

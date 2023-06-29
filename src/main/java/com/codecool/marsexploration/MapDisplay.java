@@ -9,6 +9,8 @@ import java.awt.*;
 import java.util.Map;
 
 public class MapDisplay extends JFrame {
+    private static MapDisplay instance; // Singleton instance
+
     private static final int TILE_SIZE = 20;
     private static final int MAP_SIZE = 40; // Rozmiar wyświetlanej mapy (liczba kafelków)
 
@@ -17,7 +19,7 @@ public class MapDisplay extends JFrame {
 
     private Map<Coordinate, TileType> exploredMap;
 
-    public MapDisplay(MarsMap marsMap) {
+    private MapDisplay(MarsMap marsMap) {
         this.marsMap = marsMap;
         this.exploredMap = marsMap.getMap();
         this.mapVisualizer = new MapVisualizer();
@@ -29,10 +31,20 @@ public class MapDisplay extends JFrame {
         pack();
         setVisible(true); // Wyświetlenie okna
     }
+    // Method to get the singleton instance
+    public static MapDisplay getInstance(MarsMap marsMap) {
+        if (instance == null) {
+            instance = new MapDisplay(marsMap);
+        }
+        return instance;
+    }
 
     public void updateMap(MarsMap marsMap) {
         this.marsMap = marsMap;
         this.exploredMap = marsMap.getMap();
+        mapVisualizer.repaint();
+    }
+    public void closeOldMap(){
         mapVisualizer.repaint();
     }
 
@@ -74,6 +86,8 @@ public class MapDisplay extends JFrame {
                 case ROVER:
                     return Color.GREEN;
                 case BASE:
+                    return Color.RED;
+                case SPACESHIP:
                     return Color.RED;
                 default:
                     return Color.WHITE;
