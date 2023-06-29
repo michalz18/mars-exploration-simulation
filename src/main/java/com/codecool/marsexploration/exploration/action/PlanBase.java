@@ -25,7 +25,7 @@ public class PlanBase implements Action {
     @Override
     public void takeAction(Rover rover, SimulationContext simulationContext) {
         Coordinate suitableCoordinate = resourceFinder.findClosestResource(rover, TileType.WATER);
-        List<Coordinate> closeCoordinates = coordinateCalculator.getCoordinatesInRadius(suitableCoordinate, simulationContext.getMarsMap(), 3);
+        List<Coordinate> closeCoordinates = coordinateCalculator.getCoordinatesInRadius(suitableCoordinate, simulationContext.getMarsMap(), 4);
         List<Coordinate> adjacentEmptyCoordinates = coordinateCalculator.getOnlyEmptyCoordinates(closeCoordinates, simulationContext.getMarsMap());
         Optional<Coordinate> randomCoordinate = coordinateCalculator.getRandomCoordinate(adjacentEmptyCoordinates);
         randomCoordinate.ifPresentOrElse(coordinate -> {

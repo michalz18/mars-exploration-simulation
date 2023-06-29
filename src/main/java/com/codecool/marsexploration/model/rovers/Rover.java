@@ -21,6 +21,7 @@ public class Rover {
     private Base base;
     private ExplorationOutcome explorationOutcome;
     private TileType inventory;
+    private MarsMap commonMap;
 
     private String currentTask;
 
@@ -40,6 +41,7 @@ public class Rover {
         explorationOutcome = ExplorationOutcome.UNDEFINED;
         inventory = TileType.EMPTY;
         count++;
+        this.commonMap = new MarsMap(new HashMap<>());
     }
 
     public Coordinate getDestination() {

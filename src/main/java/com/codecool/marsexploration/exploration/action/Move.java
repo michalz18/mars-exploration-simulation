@@ -11,7 +11,7 @@ public class Move implements Action {
     @Override
     public void takeAction(Rover rover, SimulationContext simulationContext) {
         MovementStrategy movementStrategy = simulationContext.getMovementStrategies().get(rover.getCurrentMovementStrategyType());
-        Coordinate newCoordinate = movementStrategy.decideWhereToGo(rover);
+        Coordinate newCoordinate = movementStrategy.decideWhereToGo(rover,simulationContext);
         rover.setCurrentPosition(newCoordinate);
         simulationContext.incrementSteps();
     }
