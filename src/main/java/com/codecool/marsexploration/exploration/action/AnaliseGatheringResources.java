@@ -68,14 +68,12 @@ public class AnaliseGatheringResources implements Action {
 
     private void handleFindingResource(Rover rover) {
         Coordinate closestWantedResource = closestResourceCalculator.findClosestResource(rover, resourceToGatherInBase);
-
         if (closestWantedResource == null) {
-            rover.setExplorationOutcome(ExplorationOutcome.UNDEFINED);
-            return;
+            rover.setCurrentMovementStrategyType(MovementStrategyType.EXPLORING);
+        } else {
+            rover.setDestination(closestWantedResource);
+            rover.setCurrentMovementStrategyType(MovementStrategyType.MOVING_TO_A_DESTINATION_COORDINATE);
         }
-
-        rover.setDestination(closestWantedResource);
-        rover.setCurrentMovementStrategyType(MovementStrategyType.MOVING_TO_A_DESTINATION_COORDINATE);
         rover.setCurrentActivityAssigned(null);
     }
 }

@@ -1,51 +1,375 @@
-Mission outcome: UNDEFINED
-Mission outcome: UNDEFINED
-Mission outcome: UNDEFINED
-Mission outcome: UNDEFINED
-Mission outcome: UNDEFINED
-Mission outcome: UNDEFINED
-Mission outcome: UNDEFINED
-Mission outcome: UNDEFINED
-Mission outcome: UNDEFINED
-Mission outcome: UNDEFINED
-Mission outcome: UNDEFINED
-Mission outcome: UNDEFINED
-Mission outcome: UNDEFINED
-Mission outcome: UNDEFINED
-Mission outcome: UNDEFINED
-Mission outcome: UNDEFINED
-Mission outcome: UNDEFINED
-Mission outcome: UNDEFINED
-Mission outcome: UNDEFINED
-Mission outcome: UNDEFINED
-Mission outcome: UNDEFINED
-Mission outcome: UNDEFINED
-Mission outcome: UNDEFINED
-Mission outcome: UNDEFINED
-Mission outcome: UNDEFINED
-Mission outcome: UNDEFINED
-Mission outcome: UNDEFINED
-Mission outcome: UNDEFINED
-Mission outcome: UNDEFINED
-Mission outcome: UNDEFINED
-Mission outcome: UNDEFINED
-Mission outcome: UNDEFINED
-Mission outcome: UNDEFINED
-Mission outcome: UNDEFINED
-Mission outcome: UNDEFINED
-Mission outcome: UNDEFINED
-Mission outcome: UNDEFINED
-Mission outcome: UNDEFINED
-Mission outcome: UNDEFINED
-Mission outcome: UNDEFINED
-Mission outcome: UNDEFINED
-Mission outcome: UNDEFINED
-Mission outcome: UNDEFINED
-Mission outcome: UNDEFINED
-Mission outcome: UNDEFINED
-Mission outcome: UNDEFINED
-Mission outcome: UNDEFINED
-Mission outcome: UNDEFINED
-Mission outcome: UNDEFINED
-Mission outcome: UNDEFINED
-[0] 2023-06-28: Rover at (33, 15), Steps: 50, Current task: EXPLORATION, Base status: SPACESHIP, Resources Found: PIT amount: 1, WATER amount: 1, EMPTY amount: 103, MINERAL amount: 4, SPACESHIP amount: 1, MOUNTAIN amount: 3, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[0] 2023-06-29: Rover at (26, 16), Steps: 0, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (27, 16), Steps: 1, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (28, 16), Steps: 2, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (29, 16), Steps: 3, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (29, 15), Steps: 4, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (29, 14), Steps: 5, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (30, 14), Steps: 6, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (30, 13), Steps: 7, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (30, 12), Steps: 8, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (31, 12), Steps: 9, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (32, 12), Steps: 10, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (33, 12), Steps: 11, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (33, 13), Steps: 12, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (33, 14), Steps: 13, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (32, 14), Steps: 14, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (32, 15), Steps: 15, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (32, 16), Steps: 16, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (32, 17), Steps: 17, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (32, 18), Steps: 18, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (33, 18), Steps: 19, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (33, 17), Steps: 20, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (33, 16), Steps: 21, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (34, 16), Steps: 22, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (35, 16), Steps: 23, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (35, 15), Steps: 24, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (34, 15), Steps: 25, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (33, 15), Steps: 26, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (33, 16), Steps: 27, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (33, 17), Steps: 28, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (34, 17), Steps: 29, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (35, 17), Steps: 30, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (36, 17), Steps: 31, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (36, 16), Steps: 32, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (37, 16), Steps: 33, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (38, 16), Steps: 34, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (39, 16), Steps: 35, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (39, 17), Steps: 36, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (38, 17), Steps: 37, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (37, 17), Steps: 38, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (37, 18), Steps: 39, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (37, 19), Steps: 40, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (37, 20), Steps: 41, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (37, 21), Steps: 42, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (37, 22), Steps: 43, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (37, 23), Steps: 44, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (38, 23), Steps: 45, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (38, 24), Steps: 46, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (38, 25), Steps: 47, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (39, 25), Steps: 48, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (39, 24), Steps: 49, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (39, 23), Steps: 50, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (39, 22), Steps: 51, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (38, 22), Steps: 52, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (38, 21), Steps: 53, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (39, 21), Steps: 54, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (39, 20), Steps: 55, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (38, 20), Steps: 56, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (38, 19), Steps: 57, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (39, 19), Steps: 58, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (39, 18), Steps: 59, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (38, 18), Steps: 60, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (37, 18), Steps: 61, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (36, 18), Steps: 62, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (35, 18), Steps: 63, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (35, 19), Steps: 64, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (36, 19), Steps: 65, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (36, 20), Steps: 66, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (36, 21), Steps: 67, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (35, 21), Steps: 68, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (34, 21), Steps: 69, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (34, 20), Steps: 70, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (35, 20), Steps: 71, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (34, 20), Steps: 72, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (33, 20), Steps: 73, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (33, 21), Steps: 74, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (33, 22), Steps: 75, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (34, 22), Steps: 76, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (34, 23), Steps: 77, Current task: EXPLORATION, Base status: SPACESHIP, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[0] 2023-06-29: Rover at (34, 24), Steps: 78, Current task: BASE RESOURCE COLLECTION, Base status: PLANNED, Inventory: EMPTY, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[0] 2023-06-29: Rover at (33, 24), Steps: 79, Current task: BASE RESOURCE COLLECTION, Base status: PLANNED, Inventory: EMPTY, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[0] 2023-06-29: Rover at (33, 24), Steps: 80, Current task: BASE BUILDING, Base status: PLANNED, Inventory: MINERAL, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[0] 2023-06-29: Rover at (32, 23), Steps: 81, Current task: BASE BUILDING, Base status: PLANNED, Inventory: MINERAL, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[0] 2023-06-29: Rover at (32, 22), Steps: 82, Current task: BASE BUILDING, Base status: PLANNED, Inventory: MINERAL, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[0] 2023-06-29: Rover at (32, 21), Steps: 83, Current task: BASE BUILDING, Base status: PLANNED, Inventory: MINERAL, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[0] 2023-06-29: Rover at (32, 20), Steps: 84, Current task: BASE BUILDING, Base status: PLANNED, Inventory: MINERAL, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[0] 2023-06-29: Rover at (32, 19), Steps: 85, Current task: BASE BUILDING, Base status: PLANNED, Inventory: MINERAL, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[0] 2023-06-29: Rover at (32, 18), Steps: 86, Current task: BASE BUILDING, Base status: PLANNED, Inventory: MINERAL, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[0] 2023-06-29: Rover at (32, 17), Steps: 87, Current task: BASE BUILDING, Base status: PLANNED, Inventory: MINERAL, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[0] 2023-06-29: Rover at (32, 16), Steps: 88, Current task: BASE BUILDING, Base status: PLANNED, Inventory: MINERAL, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[0] 2023-06-29: Rover at (32, 15), Steps: 89, Current task: BASE BUILDING, Base status: PLANNED, Inventory: MINERAL, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[0] 2023-06-29: Rover at (32, 14), Steps: 90, Current task: BASE BUILDING, Base status: PLANNED, Inventory: MINERAL, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[0] 2023-06-29: Rover at (32, 13), Steps: 91, Current task: BASE BUILDING, Base status: PLANNED, Inventory: MINERAL, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[0] 2023-06-29: Rover at (32, 12), Steps: 92, Current task: BASE BUILDING, Base status: PLANNED, Inventory: MINERAL, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[0] 2023-06-29: Rover at (32, 12), Steps: 93, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (32, 12), Steps: 94, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (32, 13), Steps: 95, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (32, 11), Steps: 96, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (32, 13), Steps: 97, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: WATER, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (31, 11), Steps: 98, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (32, 12), Steps: 99, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: WATER, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (30, 11), Steps: 100, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (32, 12), Steps: 101, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (29, 11), Steps: 102, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (31, 13), Steps: 103, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (29, 12), Steps: 104, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (30, 14), Steps: 105, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (29, 11), Steps: 106, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (29, 14), Steps: 107, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (28, 11), Steps: 108, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (28, 14), Steps: 109, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (28, 10), Steps: 110, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (27, 14), Steps: 111, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (27, 10), Steps: 112, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (27, 14), Steps: 113, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: WATER, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (26, 10), Steps: 114, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (28, 13), Steps: 115, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: WATER, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (25, 10), Steps: 116, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (29, 12), Steps: 117, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: WATER, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (25, 9), Steps: 118, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (30, 12), Steps: 119, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: WATER, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (24, 9), Steps: 120, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (31, 12), Steps: 121, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: WATER, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (23, 9), Steps: 122, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (32, 12), Steps: 123, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: WATER, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (23, 10), Steps: 124, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (32, 12), Steps: 125, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (23, 11), Steps: 126, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (31, 13), Steps: 127, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (23, 12), Steps: 128, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (30, 14), Steps: 129, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (23, 13), Steps: 130, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (29, 15), Steps: 131, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (22, 13), Steps: 132, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (28, 15), Steps: 133, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (22, 12), Steps: 134, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (27, 15), Steps: 135, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (22, 11), Steps: 136, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (26, 15), Steps: 137, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (22, 10), Steps: 138, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (25, 15), Steps: 139, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (22, 9), Steps: 140, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (25, 15), Steps: 141, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: WATER, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (22, 8), Steps: 142, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (26, 14), Steps: 143, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: WATER, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (21, 8), Steps: 144, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (27, 13), Steps: 145, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: WATER, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (21, 9), Steps: 146, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (28, 12), Steps: 147, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: WATER, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (21, 10), Steps: 148, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (29, 12), Steps: 149, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: WATER, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (20, 10), Steps: 150, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (30, 12), Steps: 151, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: WATER, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (20, 11), Steps: 152, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (31, 12), Steps: 153, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: WATER, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (19, 11), Steps: 154, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[0] 2023-06-29: Rover at (32, 12), Steps: 155, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: WATER, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (18, 11), Steps: 156, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (18, 10), Steps: 157, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (19, 10), Steps: 158, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (19, 9), Steps: 159, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (20, 9), Steps: 160, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (20, 8), Steps: 161, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (19, 8), Steps: 162, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (18, 8), Steps: 163, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (18, 9), Steps: 164, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (17, 9), Steps: 165, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (16, 9), Steps: 166, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (15, 9), Steps: 167, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (15, 8), Steps: 168, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (14, 8), Steps: 169, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (14, 7), Steps: 170, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (14, 6), Steps: 171, Current task: BASE RESOURCE COLLECTION, Base status: PLANNED, Inventory: EMPTY, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (15, 5), Steps: 172, Current task: BASE RESOURCE COLLECTION, Base status: PLANNED, Inventory: EMPTY, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (16, 4), Steps: 173, Current task: BASE RESOURCE COLLECTION, Base status: PLANNED, Inventory: EMPTY, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (17, 4), Steps: 174, Current task: BASE RESOURCE COLLECTION, Base status: PLANNED, Inventory: EMPTY, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (17, 4), Steps: 175, Current task: BASE BUILDING, Base status: PLANNED, Inventory: MINERAL, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (18, 5), Steps: 176, Current task: BASE BUILDING, Base status: PLANNED, Inventory: MINERAL, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (19, 6), Steps: 177, Current task: BASE BUILDING, Base status: PLANNED, Inventory: MINERAL, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (20, 7), Steps: 178, Current task: BASE BUILDING, Base status: PLANNED, Inventory: MINERAL, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (21, 8), Steps: 179, Current task: BASE BUILDING, Base status: PLANNED, Inventory: MINERAL, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (22, 9), Steps: 180, Current task: BASE BUILDING, Base status: PLANNED, Inventory: MINERAL, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (22, 10), Steps: 181, Current task: BASE BUILDING, Base status: PLANNED, Inventory: MINERAL, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (22, 11), Steps: 182, Current task: BASE BUILDING, Base status: PLANNED, Inventory: MINERAL, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (22, 12), Steps: 183, Current task: BASE BUILDING, Base status: PLANNED, Inventory: MINERAL, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (22, 13), Steps: 184, Current task: BASE BUILDING, Base status: PLANNED, Inventory: MINERAL, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (22, 14), Steps: 185, Current task: BASE BUILDING, Base status: PLANNED, Inventory: MINERAL, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (22, 15), Steps: 186, Current task: BASE BUILDING, Base status: PLANNED, Inventory: MINERAL, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (22, 16), Steps: 187, Current task: BASE BUILDING, Base status: PLANNED, Inventory: MINERAL, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (22, 17), Steps: 188, Current task: BASE BUILDING, Base status: PLANNED, Inventory: MINERAL, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (22, 17), Steps: 189, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (22, 17), Steps: 190, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (23, 16), Steps: 191, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (22, 16), Steps: 192, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (23, 15), Steps: 193, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (21, 16), Steps: 194, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (23, 14), Steps: 195, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (20, 16), Steps: 196, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (23, 14), Steps: 197, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: WATER, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (20, 15), Steps: 198, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (22, 15), Steps: 199, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: WATER, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (20, 14), Steps: 200, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (22, 16), Steps: 201, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: WATER, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (21, 14), Steps: 202, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (22, 17), Steps: 203, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: WATER, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (21, 13), Steps: 204, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (22, 17), Steps: 205, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (20, 13), Steps: 206, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (23, 16), Steps: 207, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (19, 13), Steps: 208, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (24, 15), Steps: 209, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (18, 13), Steps: 210, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (25, 14), Steps: 211, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (17, 13), Steps: 212, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (25, 13), Steps: 213, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (16, 13), Steps: 214, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (25, 12), Steps: 215, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (16, 12), Steps: 216, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (25, 11), Steps: 217, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (17, 12), Steps: 218, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (25, 11), Steps: 219, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: WATER, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (17, 11), Steps: 220, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (24, 12), Steps: 221, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: WATER, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (16, 11), Steps: 222, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (23, 13), Steps: 223, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: WATER, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (16, 10), Steps: 224, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (22, 14), Steps: 225, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: WATER, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (15, 10), Steps: 226, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (22, 15), Steps: 227, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: WATER, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (14, 10), Steps: 228, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (22, 16), Steps: 229, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: WATER, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (14, 9), Steps: 230, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (22, 17), Steps: 231, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: WATER, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (13, 9), Steps: 232, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (22, 17), Steps: 233, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (13, 8), Steps: 234, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (22, 18), Steps: 235, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (12, 8), Steps: 236, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (22, 19), Steps: 237, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (12, 9), Steps: 238, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (21, 19), Steps: 239, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (12, 10), Steps: 240, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (20, 19), Steps: 241, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (11, 10), Steps: 242, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (19, 19), Steps: 243, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (10, 10), Steps: 244, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (19, 20), Steps: 245, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (10, 11), Steps: 246, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (19, 21), Steps: 247, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (10, 12), Steps: 248, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (20, 21), Steps: 249, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (10, 13), Steps: 250, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (20, 22), Steps: 251, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (11, 13), Steps: 252, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (21, 22), Steps: 253, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (11, 14), Steps: 254, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (22, 22), Steps: 255, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (12, 14), Steps: 256, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (23, 22), Steps: 257, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (12, 13), Steps: 258, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (23, 23), Steps: 259, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (12, 12), Steps: 260, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (24, 23), Steps: 261, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (12, 11), Steps: 262, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (25, 23), Steps: 263, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (13, 11), Steps: 264, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (26, 23), Steps: 265, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (13, 12), Steps: 266, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (27, 23), Steps: 267, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (13, 13), Steps: 268, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (28, 23), Steps: 269, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (14, 13), Steps: 270, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (28, 24), Steps: 271, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (14, 12), Steps: 272, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (27, 24), Steps: 273, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (14, 11), Steps: 274, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (27, 25), Steps: 275, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (15, 11), Steps: 276, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (26, 25), Steps: 277, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (15, 12), Steps: 278, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (25, 25), Steps: 279, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (15, 13), Steps: 280, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (24, 25), Steps: 281, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (15, 14), Steps: 282, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (24, 26), Steps: 283, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (14, 14), Steps: 284, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (23, 26), Steps: 285, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (13, 14), Steps: 286, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (22, 26), Steps: 287, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (13, 15), Steps: 288, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (22, 25), Steps: 289, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (13, 16), Steps: 290, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (22, 24), Steps: 291, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (13, 17), Steps: 292, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (22, 23), Steps: 293, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (12, 17), Steps: 294, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (22, 22), Steps: 295, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (12, 16), Steps: 296, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (22, 21), Steps: 297, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (11, 16), Steps: 298, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (22, 20), Steps: 299, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (11, 17), Steps: 300, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (23, 20), Steps: 301, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (11, 18), Steps: 302, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (24, 20), Steps: 303, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (11, 19), Steps: 304, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (25, 20), Steps: 305, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (12, 19), Steps: 306, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (26, 20), Steps: 307, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (12, 20), Steps: 308, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (26, 19), Steps: 309, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (11, 20), Steps: 310, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (26, 18), Steps: 311, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (11, 21), Steps: 312, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (27, 18), Steps: 313, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (11, 22), Steps: 314, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (27, 19), Steps: 315, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (10, 22), Steps: 316, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (28, 19), Steps: 317, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (10, 23), Steps: 318, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (28, 20), Steps: 319, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (10, 24), Steps: 320, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (28, 21), Steps: 321, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (11, 24), Steps: 322, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (28, 22), Steps: 323, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (11, 25), Steps: 324, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (27, 22), Steps: 325, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (12, 25), Steps: 326, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (26, 22), Steps: 327, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (12, 26), Steps: 328, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (25, 22), Steps: 329, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (13, 26), Steps: 330, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (25, 21), Steps: 331, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (13, 27), Steps: 332, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (24, 21), Steps: 333, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (14, 27), Steps: 334, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (24, 22), Steps: 335, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (14, 28), Steps: 336, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (23, 22), Steps: 337, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (13, 28), Steps: 338, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (23, 21), Steps: 339, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (12, 28), Steps: 340, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (22, 21), Steps: 341, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (12, 27), Steps: 342, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (21, 21), Steps: 343, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (11, 27), Steps: 344, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (21, 20), Steps: 345, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (11, 26), Steps: 346, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: UNDEFINED
+[1] 2023-06-29: Rover at (20, 20), Steps: 347, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (10, 26), Steps: 348, Current task: EXPLORATION, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (19, 20), Steps: 349, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (19, 19), Steps: 350, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (10, 27), Steps: 351, Current task: BASE RESOURCE COLLECTION, Base status: PLANNED, Inventory: EMPTY, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (18, 19), Steps: 352, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: EXPLORING, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (9, 28), Steps: 353, Current task: BASE RESOURCE COLLECTION, Base status: PLANNED, Inventory: EMPTY, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (17, 19), Steps: 354, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (8, 28), Steps: 355, Current task: BASE RESOURCE COLLECTION, Base status: PLANNED, Inventory: EMPTY, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (16, 19), Steps: 356, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (7, 28), Steps: 357, Current task: BASE RESOURCE COLLECTION, Base status: PLANNED, Inventory: EMPTY, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (15, 19), Steps: 358, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (7, 28), Steps: 359, Current task: BASE BUILDING, Base status: PLANNED, Inventory: MINERAL, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (14, 19), Steps: 360, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: EMPTY, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (8, 27), Steps: 361, Current task: BASE BUILDING, Base status: PLANNED, Inventory: MINERAL, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (14, 19), Steps: 362, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: WATER, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (9, 26), Steps: 363, Current task: BASE BUILDING, Base status: PLANNED, Inventory: MINERAL, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (15, 18), Steps: 364, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: WATER, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (10, 25), Steps: 365, Current task: BASE BUILDING, Base status: PLANNED, Inventory: MINERAL, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (16, 17), Steps: 366, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: WATER, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (11, 24), Steps: 367, Current task: BASE BUILDING, Base status: PLANNED, Inventory: MINERAL, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (17, 17), Steps: 368, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: WATER, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (12, 24), Steps: 369, Current task: BASE BUILDING, Base status: PLANNED, Inventory: MINERAL, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (18, 17), Steps: 370, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: WATER, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (13, 24), Steps: 371, Current task: BASE BUILDING, Base status: PLANNED, Inventory: MINERAL, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[1] 2023-06-29: Rover at (19, 17), Steps: 372, Current task: RESOURCE GATHERING, Base status: OPERATING, Inventory: WATER, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+[2] 2023-06-29: Rover at (14, 24), Steps: 373, Current task: BASE BUILDING, Base status: PLANNED, Inventory: MINERAL, Movement Strategy: MOVING_TO_A_DESTINATION_COORDINATE, Outcome: RESOURCES_FOUND
+Mission outcome: 3 bases were successfully created
