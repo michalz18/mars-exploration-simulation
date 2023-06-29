@@ -5,6 +5,7 @@ import com.codecool.marsexploration.calculators.service.ClosestResourceCalculato
 import com.codecool.marsexploration.exploration.model.SimulationContext;
 import com.codecool.marsexploration.model.rovers.Rover;
 import com.codecool.marsexploration.model.rovers.rovermovement.MovementStrategyType;
+import com.codecool.marsexploration.outcome.ExplorationOutcome;
 import com.codecool.marsexploration.tiletype.TileType;
 
 public class AnaliseGatheringResources implements Action {
@@ -67,9 +68,14 @@ public class AnaliseGatheringResources implements Action {
 
     private void handleFindingResource(Rover rover) {
         Coordinate closestWantedResource = closestResourceCalculator.findClosestResource(rover, resourceToGatherInBase);
+
+        if (closestWantedResource == null) {
+            rover.setExplorationOutcome(ExplorationOutcome.UNDEFINED);
+            return;
+        }
+
         rover.setDestination(closestWantedResource);
         rover.setCurrentMovementStrategyType(MovementStrategyType.MOVING_TO_A_DESTINATION_COORDINATE);
         rover.setCurrentActivityAssigned(null);
     }
-
 }
