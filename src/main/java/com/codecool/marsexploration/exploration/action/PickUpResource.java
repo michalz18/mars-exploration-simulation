@@ -7,7 +7,9 @@ import com.codecool.marsexploration.tiletype.TileType;
 public class PickUpResource implements Action {
     @Override
     public void takeAction(Rover rover, SimulationContext simulationContext) {
-        rover.setInventory(TileType.MINERAL);
+        TileType tileType = simulationContext.getMarsMap().getTileType(rover.getCurrentPosition());
+
+        rover.setInventory(tileType);
 
         simulationContext.getMarsMap().setTileType(rover.getCurrentPosition(), TileType.EMPTY);
 
