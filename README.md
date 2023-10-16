@@ -1,7 +1,5 @@
 # MARS EXPLORATION SIMULATION
 
- Our project is already deployed, you can see it here: 
-
 ## 🌟 Project aim
 
   
